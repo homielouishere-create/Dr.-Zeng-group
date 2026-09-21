@@ -20,16 +20,11 @@
 #   educationshort – condensed list shown in sidebar
 # -----------------------------------------------------------------------------
 pi:
-  website: "https://wenhaoyang.com/about/"
+  website: "http://smne.scnu.edu.cn/a/20240416/110.html"
   education:
-    - "2023 - Ph.D. Rochester Institute of Technology"
-    - "2019 - M.S. The Hong Kong University of Science and Technology"
-    - "2018 - B.S. Nanjing University of Aeronautics and Astronautics"
+    - "2020 - Ph.D. Sichuan University"
   educationshort:
-    - "2023 - Ph.D. Rochester Institute of Technology"
-    - "2019 - M.S. The Hong Kong University of Science and Technology"
-    - "2018 - B.S. Nanjing University of Aeronautics and Astronautics"
-
+    - "2020 - Ph.D. Sichuan University"
 
 # -----------------------------------------------------------------------------
 # Collaborators (external mentors, co-advisors, visiting researchers, etc.)
@@ -57,68 +52,6 @@ collaborators:
     website: "https://www.lamar.edu/engineering/industrial/faculty/yueqing-li/"
     email: "yueqing.li@lamar.edu"
 
-  - name: "Cheng-Hsien Lin"
-    last_name: "Lin"
-    show_collaborator: true
-    affiliation: "Lamar University"
-    website: "https://www.lamar.edu/arts-sciences/criminal-justice/faculty-cj/dr.-cheng-hsien-lin.html"
-    email: "chlin@lamar.edu"
-
-  - name: "Xinyu Liu"
-    last_name: "Liu"
-    show_collaborator: true
-    affiliation: "Lamar University"
-    website: "https://www.lamar.edu/engineering/industrial/faculty/xinyu-liu/"
-    email: "xinyu.liu@lamar.edu"
-
-  - name: "Yan Yan"
-    last_name: "Yan"
-    show_collaborator: true
-    affiliation: "Lamar University"
-    website: "https://www.lamar.edu/education/curriculum-and-instruction/faculty-staff/yan-yan-fp/"
-    email: "yyan1@lamar.edu"
-
-  - name: "Cheng Han"
-    last_name: "Han"
-    show_collaborator: true
-    affiliation: "University of Missouri - Kansas City (UMKC)"
-    website: "https://sse.umkc.edu/profiles/cheng-han.html"
-    email: "chk9k@umkc.edu"
-
-  - name: "Dongfang Liu"
-    last_name: "Liu"
-    show_collaborator: true
-    affiliation: "Rochester Institute of Technology (RIT)"
-    website: "https://www.rit.edu/directory/dxleec-dongfang-liu"
-    email: "dongfang.liu@rit.edu"
-
-  - name: "Qifan Wang"
-    last_name: "Wang"
-    show_collaborator: true
-    affiliation: "Meta MRS Research"
-    website: "https://wqfcr.github.io/"
-    email: "wqfcr618@gmail.com"
-
-  - name: "Jiebo Luo"
-    last_name: "Luo"
-    show_collaborator: true
-    affiliation: "University of Rochester"
-    website: "https://www.cs.rochester.edu/people/faculty/luo_jiebo/index.html"
-    email: "jluo@cs.rochester.edu"
-
-  - name: "Baisravan HomChaudhuri"
-    last_name: "HomChaudhuri"
-    show_collaborator: true
-    affiliation: "Lamar University"
-    website: ""
-    email: ""
-
-  - name: "Ruixiang Tang"
-    last_name: "Tang"
-    show_collaborator: true
-    affiliation: "Rutgers University–New Brunswick"
-    website: "https://www.ruixiangtang.net/"
-    email: "ruixiang.tang@rutgers.edu"
 
 # -----------------------------------------------------------------------------
 # Students (current and incoming members)
@@ -176,35 +109,18 @@ students:
     year_start: 2025 
     year_end: now
 
-  - name: Rezwanul Ashraf Ruddro
+  - name: "Wang, Zihao"
     show_team: true
     show_about: true
-    mentoring_role: doctoral_advisor
-    photo: team/rezwanul.jpg
-    info: DE Student
-    lamar_id: L20611330
-    email: rruddro@lamar.edu
-    location: Lamar University
-    degree: Doctoral of Industrial Engineering
-    year_start: 2026 
-    year_end: now
-    website: "https://www.linkedin.com/in/rezwanul-ashraf-ruddro-28772b199/"
-
-  - name: Justin Barrera
-    show_team: false
-    show_about: true
     mentoring_role: undergraduate_advisor
-    info: Undergraduate Research Assistant (SRUF)
-    location: Lamar University
-    degree: B.S. Mechanical Engineering
-    year_start: 2026
-    year_end: 2026
-
-  - name: John Gust
-    show_team: false
-    show_about: false
-    website: "https://www.linkedin.com/in/john-gust-86b94280/"
-    info: Student
+    photo: team/Wang Zihao.jpg
+    info: Undergraduate Research Assistant
+    email: "20238032029@m.scnu.edu.cn"
+    website: "https://homielouishere-create.github.io/homielouishere.github.io/"
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
 
   - name: "This could be you!"
     show_team: true
