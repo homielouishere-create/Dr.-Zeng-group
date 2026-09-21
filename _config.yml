@@ -1,30 +1,30 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Wenhao Yang"
-title: "Assistant Professor"
-department: "Dr. Victor A. Zaloom Department of Industrial and Systems Engineering"
-college: "College of Engineering"
-institution: "Lamar University"
-institution_location: "4400 MLK Blvd., PO Box 10009, Beaumont, Texas 77710"
-email: wenhao.yang@lamar.edu
-phone: "+1-409-880-1981"  # used on the generated CV header; leave blank to omit
-office: "Cherry Building, Room 2628, Beaumont, TX 77705"  # used on the generated CV header; leave blank to fall back to institution_location
-photo: profile/VinkoYang-1-1.jpg  # place your photo in images/ -- used for the on-page avatar (About/Team/sidebar)
-share_image: profile/avatartion_yang_01.png  # place your photo in images/ -- used only for social-share preview (og:image)
+name: "Huadong Zeng"
+title: "Undergraduate Research Assistant"
+department: "College of Materials and New Energy"
+college: ""
+institution: "South China Normal University"
+institution_location: "Guangzhou, Guangdong, China"
+email: ""  # 可填写你的电子邮箱，如需隐藏可留空
+phone: ""  # 留空隐藏电话号码
+office: "" # 可填写办公室位置，留空则默认使用 institution_location
+photo: profile/avatar.jpg  # 替换为你在 images/profile/ 目录下放置的个人头像文件名
+share_image: profile/avatar.jpg  # 社交媒体分享预览图文件名
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=nzyki6UAAAAJ&hl"
-  github: "https://github.com/VinkoYang"
-  researchgate: "https://www.researchgate.net/profile/Wenhao-Yang-28?ev=hdr_xprf"
-  orcid: "https://orcid.org/0009-0004-4977-2914"
+  google_scholar: ""
+  github: "https://github.com/homielouishere-create"
+  researchgate: ""
+  orcid: ""
   twitter: ""
-  linkedin: "https://www.linkedin.com/in/wenhaoyang-vinko"
-  cv: "files/cv.pdf"  # auto-generated at build time from cv/cv.md — leave blank to hide the CV icon
-  youtube: "https://www.youtube.com/@vinkoyang"
+  linkedin: ""
+  cv: "files/cv.pdf"  # 会在构建时自动从 cv/cv.md 生成，留空可隐藏 CV 图标
+  youtube: ""
 
 # ============================================================
 # STEP 3: Site Settings
@@ -35,14 +35,14 @@ links:
 # key — and live in _sass/base/_variables.scss. Keep this in sync with the
 # --accent rung there.
 accent_color: "#2196F3"
-dark_mode: true              # show dark mode toggle in navbar
-description: "Academic webpage of Dr. Wenhao Yang"
-baseurl: ""
-url: "https://wenhaoyang.com"
+dark_mode: true              # 在导航栏显示深色模式切换开关
+description: "Academic webpage of Zihao Wang"
+baseurl: "/Dr.-Zeng-group"
+url: "https://homielouishere-create.github.io"
 
-# Google Analytics — paste your GA4 measurement ID, or leave blank
+# Google Analytics — 留空或填入你自己的 GA4 测量 ID
 analytics:
-  google_id: "G-7VDC03WDXT"
+  google_id: ""
 
 # ============================================================
 # STEP 4: Choose Your Pages (comment out any you don't need)
@@ -108,8 +108,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Yang
-  first_name: [Wenhao]
+  last_name: Wang
+  first_name: [Zihao]
   style: citesty
   locale: en
   source: /assets/
