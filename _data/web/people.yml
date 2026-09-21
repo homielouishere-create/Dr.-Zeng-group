@@ -112,7 +112,7 @@ students:
   - name: "Wang, Zihao"
     show_team: true
     show_about: true
-    mentoring_role: undergraduate_advisor
+    mentoring_role: B.E. Student
     photo: team/Wang Zihao.jpg
     info: Undergraduate Research Assistant
     email: "20238032029@m.scnu.edu.cn"
