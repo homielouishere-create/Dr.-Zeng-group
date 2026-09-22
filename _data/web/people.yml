@@ -23,8 +23,6 @@ pi:
   website: "http://smne.scnu.edu.cn/a/20240416/110.html"
   education:
     - "2020 - Ph.D. Sichuan University"
-  educationshort:
-    - "2020 - Ph.D. Sichuan University"
 
 # -----------------------------------------------------------------------------
 # Collaborators (external mentors, co-advisors, visiting researchers, etc.)
@@ -96,7 +94,7 @@ collaborators:
 #     year_end: now
 
 students:
-  - name: Lakshmana Ayyalasomayajula (Avinash)
+  - name: Chen Zilin
     show_team: true
     show_about: true
     mentoring_role: doctoral_advisor
@@ -121,14 +119,26 @@ students:
     degree: B.S. Materials Science and Engineering
     year_start: 2023
     year_end: 2027
+    research_focus: "Ai4S; TDA; DFT for 2D carbon allotropes"
+
+  - name: Lakshmana Ayyalasomayajula (Avinash)
+    show_team: true
+    show_about: true
+    mentoring_role: doctoral_advisor
+    photo: team/avinash.jpg
+    info: DE Student
+    lamar_id: L20645178
+    email: layyalasomay@lamar.edu
+    location: Lamar University
+    degree: Doctoral of Industrial Engineering
+    year_start: 2025 
+    year_end: now
 
   - name: "This could be you!"
     show_team: true
     show_about: false
     photo: team/rock.jpg
     info: See openings for more info
-
-
 # -----------------------------------------------------------------------------
 # Alumni (former members)
 # Used in: team.md (alumni table)
@@ -156,14 +166,6 @@ alumni:
     email: mmubarik@lamar.edu, ilyasmubarik@gmail.com
     phone: 409-203-9389
 
-  - name: Rezwanul Ashraf Ruddro
-    year_start: 2025 
-    year_end: 2026
-    degree: M.S.
-    thesis: "<a href='https://www.proquest.com/openview/3a91da983e9b038992ccc20282733db7/1?pq-origsite=gscholar&cbl=18750&diss=y' target='_blank'>Development of an Immersive VR Learning System With LLM-Integrated Avatar for Educational Assistance</a>"
-    website: "https://www.linkedin.com/in/rezwanul-ashraf-ruddro-28772b199/"
-    current_position: "Continuing DE student at Lamar University"
-    mentoring_role: master_advisor
 
 # -----------------------------------------------------------------------------
 # Other (admin support, affiliates, etc.)

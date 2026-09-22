@@ -35,16 +35,46 @@ permalink: /team/
 </div>
 </div>
 
-{% assign visible_students = site.data.web.people.students | where_exp: "s", "s.show_team == true" %}
-{% if visible_students.size > 0 %}
-## Current Students
+<!-- 1. 研究生 (M.E.) 循环区块 -->
+{% assign me_students = site.data.web.people.students | where: "category", "M.E." | where_exp: "s", "s.show_team == true" %}
+{% if me_students.size > 0 %}
+## Graduate Students (M.E.)
 
 <div class="team-grid">
-{% for member in visible_students %}
+{% for member in me_students %}
 <div class="team-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
 <h4 class="team-name">{{ member.name }}</h4>
 <p class="team-info">{{ member.info }}</p>
+{% if member.research_focus and member.research_focus != "" %}
+<p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Research:</strong> {{ member.research_focus }}</p>
+{% endif %}
+{% if member.lamar_id and member.lamar_id != "" %}<p class="team-info">{{ member.lamar_id }}</p>{% endif %}
+<div class="team-links">
+{% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+{% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website"><i class="fa-solid fa-house"></i></a>{% endif %}
+{% if member.scholar %}<a href="{{ member.scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+{% if member.github %}<a href="{{ member.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+</div>
+</div>
+{% endfor %}
+</div>
+{% endif %}
+
+<!-- 2. 本科生 (B.E.) 循环区块 -->
+{% assign be_students = site.data.web.people.students | where: "category", "B.E." | where_exp: "s", "s.show_team == true" %}
+{% if be_students.size > 0 %}
+## Undergraduate Students (B.E.)
+
+<div class="team-grid">
+{% for member in be_students %}
+<div class="team-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
+<h4 class="team-name">{{ member.name }}</h4>
+<p class="team-info">{{ member.info }}</p>
+{% if member.research_focus and member.research_focus != "" %}
+<p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Research:</strong> {{ member.research_focus }}</p>
+{% endif %}
 {% if member.lamar_id and member.lamar_id != "" %}<p class="team-info">{{ member.lamar_id }}</p>{% endif %}
 <div class="team-links">
 {% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
@@ -63,7 +93,7 @@ permalink: /team/
 <div class="section-card">
 <table class="alumni-table">
 <thead>
-<tr><th>Name</th><th>Degree</th><th>Duration</th><th>Thesis</th><th>Current Position</th></tr>
+<tr><th>Name</th><th>Degree</th><th>Research Focus</th><th>Duration</th><th>Thesis</th><th>Current Position</th></tr>
 </thead>
 <tbody>
 {% assign sorted_alumni = site.data.web.people.alumni | sort: "year_end" | reverse %}
@@ -71,6 +101,7 @@ permalink: /team/
 <tr>
 <td data-label="Name">{% if member.website and member.website != "" %}<a href="{{ member.website }}" target="_blank">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</td>
 <td data-label="Degree">{{ member.degree }}</td>
+<td data-label="Research Focus">{{ member.research_focus }}</td>
 <td data-label="Duration">{% if member.year_start %}{{ member.year_start }}{% if member.year_end %} – {{ member.year_end }}{% endif %}{% endif %}</td>
 <td data-label="Thesis" style="font-style: italic;">{{ member.thesis }}</td>
 <td data-label="Current Position">{{ member.current_position }}</td>
@@ -102,6 +133,14 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% if site.data.web.people.other and site.data.web.people.other.size > 0 %}
 ## Administrative Support
 
-<a href="mailto:hmartindale@lamar.edu">Heather Martindale</a> is helping us (and other groups) with administration.
+<div class="section-card">
+<ul>
+{% for item in site.data.web.people.other %}
+<li>{% if item.email %}<a href="mailto:{{ item.email }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.role %} ({{ item.role }}){% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
