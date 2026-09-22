@@ -97,23 +97,27 @@ students:
   - name: Chen Zilin
     show_team: true
     show_about: true
-    mentoring_role: doctoral_advisor
-    photo: team/avinash.jpg
-    info: B.E.
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "SIGS"
+    photo: team/CZL.jpg
+    info: 2021 B.S.
     lamar_id: L20645178
-    email: layyalasomay@lamar.edu
-    location: Lamar University
-    degree: Doctoral of Industrial Engineering
-    year_start: 2025 
-    year_end: now
+    email: zenghd@m.scnu.edu.cn
+    location: Tsinghua University
+    degree: B.S. Materials Science and Engineering
+    research_focus: "Ai4S"
+    year_start: 2021 
+    year_end: 2025
 
   - name: "Wang, Zihao"
     show_team: true
     show_about: true
     category: "B.E."
     mentoring_role: B.E. Student
-    photo: team/Wang Zihao.jpg
-    info: B.E.
+    next_position: "SIGS"
+    photo: team/WZH.jpg
+    info: 2023 B.E.
     email: "20238032029@m.scnu.edu.cn"
     website: "https://homielouishere-create.github.io/homielouishere.github.io/"
     location: South China Normal University
@@ -122,24 +126,194 @@ students:
     year_end: 2027
     research_focus: "Ai4S; TDA; DFT for 2D carbon allotropes"
 
-  - name: Lakshmana Ayyalasomayajula (Avinash)
+  - name: "Chen Haoxuan"
     show_team: true
     show_about: true
-    mentoring_role: doctoral_advisor
-    photo: team/avinash.jpg
-    info: DE Student
-    lamar_id: L20645178
-    email: layyalasomay@lamar.edu
-    location: Lamar University
-    degree: Doctoral of Industrial Engineering
-    year_start: 2025 
-    year_end: now
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "SIAT"
+    photo: team/CHX.jpg
+    info: 2023 B.S.
+    email: "lrnyqyq73187@outlook.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "DFT; ML"
+
+  - name: "Xia Yuyan"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: "SJTU"
+    photo: team/XYY.jpg
+    info: 2023 B.E.
+    email: "20238032077@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "DFT for Hydrogen storage"
+
+  - name: "Zhao Zhengjie"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "PKU"
+    photo: team/ZZJ.png
+    info: 2023 B.E.
+    email: "20238031005@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "DFT; ML"
+
+  - name: "Xu Jinhong"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/XJH.png
+    info: 2023 B.E.
+    email: ""
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "DFT for Hydrogen storage"
+    
+# ----------------------------------
+  - name: "Xiao Yiming"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/XYM.png
+    info: 2024 B.S.
+    email: "15015255763@163.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2024
+    year_end: 2028
+    research_focus: "DFT for Lithium storage"
+
+  - name: "Li Xiang"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "UTokyo"
+    photo: team/LX.png
+    info: 2024 B.S.
+    email: "202480313925@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2024
+    year_end: 2028
+    research_focus: "Gas Adsorption"
+
+  - name: "Zeng Zheng"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/ZZ.png
+    info: 2024 B.E.
+    email: "202480322472@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2024
+    year_end: 2028
+    research_focus: "DFT for Lithium storage"
+# ----------------------------------
+  - name: "Yu jincheng"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/YJC.png
+    info: 2025 B.E.
+    email: "yujincheng23@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: "DFT for Lithium storage"
+
+  - name: "Liao Yilin"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/LYL.png
+    info: 2025 B.S.
+    email: "20258031108@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: "DFT"
 
   - name: "This could be you!"
     show_team: true
     show_about: false
+    category: "B.E."
     photo: team/rock.jpg
     info: See openings for more info
+
+# -----------------------------------------------------------------------------
+
+  - name: "Guo Xiangyu"
+    show_team: true
+    show_about: true
+    category: "M.E."
+    mentoring_role: M.E. Student
+    next_position: ""
+    photo: team/GXY.jpg
+    info: 2024 B.S.
+    email: "17866806023@163.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2024
+    year_end: 2027
+    research_focus: "DFT for potassium storage"
+
+  - name: "Zhang lindong"
+    show_team: true
+    show_about: true
+    category: "M.E."
+    mentoring_role: M.E. Student
+    next_position: ""
+    photo: team/ZLD.jpg
+    info: 2026 B.S.
+    email: "3177552597@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2026
+    year_end: 2029
+    research_focus: "DFT"
+
+
+
 # -----------------------------------------------------------------------------
 # Alumni (former members)
 # Used in: team.md (alumni table)
@@ -155,19 +329,27 @@ students:
 #     degree: M.S.
 #     thesis: "<a href='https://...' target='_blank'>Thesis Title Here</a>"
 #     current_position: "Engineer at Tesla"
+
 alumni:
-  - name: Muhammad Ilyas Mubarik
-    year_start: 2024 
+  - name: "Muhammad Ilyas Mubarik"
+    photo: "team/Mubarik.jpg"             # <--- 如果有照片可以配置照片路径
+    degree: "M.S."
+    year_start: 2024
     year_end: 2026
-    degree: M.S.
-    thesis: "<a href='https://www.proquest.com/openview/8c5aa49f0903d4c8a7c414659a57f401/1?pq-origsite=gscholar&cbl=18750&diss=y' target='_blank'>Advanced Mixed Reality Training for First Responders in Hurricane Scenarios</a>"
-    website: "https://www.linkedin.com/in/ilyasmubarik/"
-    current_position: "Operations Tech II @ Amazon Data Center Engineering Operations"
-    mentoring_role: master_advisor
-    email: mmubarik@lamar.edu, ilyasmubarik@gmail.com
-    phone: 409-203-9389
+    current_position: "Operations Tech II @ Amazon Data Center Operations"
+    research_focus: "Mixed Reality Training for First Responders"
+    thesis: "Advanced Mixed Reality Training for First Responders in Hurricane Scenarios"
+    email: "mmubarik@lamar.edu"
+    website: "https://www.linkedin.com/in/..."
 
-
+  - name: Chen Zilin
+    current_position: "SIGS"
+    photo: team/CZL.jpg
+    email: zenghd@m.scnu.edu.cn
+    degree: B.S. Materials Science and Engineering
+    research_focus: "Ai4S"
+    year_start: 2021 
+    year_end: 2025
 # -----------------------------------------------------------------------------
 # Other (admin support, affiliates, etc.)
 # Used in: team.md (Other section, if enabled)

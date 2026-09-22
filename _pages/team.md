@@ -38,7 +38,7 @@ permalink: /team/
 <!-- 1. 研究生 (M.E.) 循环区块 -->
 {% assign me_students = site.data.web.people.students | where: "category", "M.E." | where_exp: "s", "s.show_team == true" %}
 {% if me_students.size > 0 %}
-## Graduate Students (M.E.)
+## Graduate Students
 
 <div class="team-grid">
 {% for member in me_students %}
@@ -64,7 +64,7 @@ permalink: /team/
 <!-- 2. 本科生 (B.E.) 循环区块 -->
 {% assign be_students = site.data.web.people.students | where: "category", "B.E." | where_exp: "s", "s.show_team == true" %}
 {% if be_students.size > 0 %}
-## Undergraduate Students (B.E.)
+## Undergraduate Students
 
 <div class="team-grid">
 {% for member in be_students %}
@@ -72,6 +72,12 @@ permalink: /team/
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
 <h4 class="team-name">{{ member.name }}</h4>
 <p class="team-info">{{ member.info }}</p>
+
+<!-- 毕业去向：与 B.E. 使用相同的 class="team-info"，保证字体、颜色和斜体样式完全一致 -->
+{% if member.next_position and member.next_position != "" %}
+<p class="team-info">{{ member.next_position }}</p>
+{% endif %}
+
 {% if member.research_focus and member.research_focus != "" %}
 <p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Research:</strong> {{ member.research_focus }}</p>
 {% endif %}
@@ -87,28 +93,42 @@ permalink: /team/
 </div>
 {% endif %}
 
+<!-- 3. 校友 (Alumni) 卡片区块 -->
 {% if site.data.web.people.alumni.size > 0 %}
 ## Alumni
 
-<div class="section-card">
-<table class="alumni-table">
-<thead>
-<tr><th>Name</th><th>Degree</th><th>Research Focus</th><th>Duration</th><th>Thesis</th><th>Current Position</th></tr>
-</thead>
-<tbody>
+<div class="team-grid">
 {% assign sorted_alumni = site.data.web.people.alumni | sort: "year_end" | reverse %}
 {% for member in sorted_alumni %}
-<tr>
-<td data-label="Name">{% if member.website and member.website != "" %}<a href="{{ member.website }}" target="_blank">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</td>
-<td data-label="Degree">{{ member.degree }}</td>
-<td data-label="Research Focus">{{ member.research_focus }}</td>
-<td data-label="Duration">{% if member.year_start %}{{ member.year_start }}{% if member.year_end %} – {{ member.year_end }}{% endif %}{% endif %}</td>
-<td data-label="Thesis" style="font-style: italic;">{{ member.thesis }}</td>
-<td data-label="Current Position">{{ member.current_position }}</td>
-</tr>
+<div class="team-card">
+{% if member.photo and member.photo != "" %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
+{% else %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/default_avatar.jpg" class="team-photo" alt="{{ member.name }}" loading="lazy">
+{% endif %}
+<h4 class="team-name">{{ member.name }}</h4>
+<p class="team-info">{{ member.degree }}{% if member.year_start %} ({{ member.year_start }}{% if member.year_end %} – {{ member.year_end }}{% endif %}){% endif %}</p>
+
+{% if member.current_position and member.current_position != "" %}
+<p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Current:</strong> {{ member.current_position }}</p>
+{% endif %}
+
+{% if member.research_focus and member.research_focus != "" %}
+<p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Research:</strong> {{ member.research_focus }}</p>
+{% endif %}
+
+{% if member.thesis and member.thesis != "" %}
+<p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;"><strong>Thesis:</strong> {{ member.thesis }}</p>
+{% endif %}
+
+<div class="team-links">
+{% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+{% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website"><i class="fa-solid fa-house"></i></a>{% endif %}
+{% if member.scholar %}<a href="{{ member.scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+{% if member.github %}<a href="{{ member.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+</div>
+</div>
 {% endfor %}
-</tbody>
-</table>
 </div>
 {% endif %}
 
