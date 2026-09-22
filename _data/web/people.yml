@@ -99,7 +99,7 @@ students:
     show_about: true
     mentoring_role: doctoral_advisor
     photo: team/avinash.jpg
-    info: DE Student
+    info: B.E.
     lamar_id: L20645178
     email: layyalasomay@lamar.edu
     location: Lamar University
@@ -110,9 +110,10 @@ students:
   - name: "Wang, Zihao"
     show_team: true
     show_about: true
+    category: "B.E."
     mentoring_role: B.E. Student
     photo: team/Wang Zihao.jpg
-    info: Undergraduate Research Assistant
+    info: B.E.
     email: "20238032029@m.scnu.edu.cn"
     website: "https://homielouishere-create.github.io/homielouishere.github.io/"
     location: South China Normal University
