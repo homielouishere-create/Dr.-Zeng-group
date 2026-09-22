@@ -10,18 +10,20 @@ permalink: /
 
 ### About me
 
-Dr. Huadong Zeng is a Lecturer in the College of Materials and New Energy at [South China Normal University](https://www.scnu.edu.cn/). His research focuses on computational materials science, density functional theory (DFT) calculations, first-principles simulations, and energy storage materials.
+Dr. Huadong Zeng is a Lecturer in the College of Materials and New Energy at [South China Normal University](https://www.scnu.edu.cn/). He received his Ph.D. degree from Sichuan University.
 
-He received his Ph.D. degree in Materials Science and Engineering. His academic work covers electronic structure modeling, topological material characterization, novel carbon allotropes, and machine learning applications in material property prediction.
-
-Dr. Zeng is dedicated to integrating computational methods with energy materials development, providing atomic-level insights into energy storage mechanisms and material design.
+His research focuses on computational materials science and theoretical design of novel functional and energy materials. His main research directions include:
+1. **Carrier Dynamics**: Excited-state carrier dynamics in novel functional materials (such as 2D materials and heterostructures).
+2. **Energetic Materials**: Structural design and reaction behavior of (smart) controllable energetic materials.
+3. **Hydrogen Storage & Energy Materials**: Theoretical prediction and physicochemical property studies of novel energy (hydrogen storage) materials.
+4. **Battery Materials Design**: Molecular design of 2D functional materials for battery applications.
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational Materials</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">DFT Calculations</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Energy Storage Materials</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Electronic Structure</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">First-Principles Simulation</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Carrier Dynamics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">2D Materials & Heterostructures</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Energetic Materials</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Hydrogen Storage</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Battery Materials Design</a>
 </div>
 
 ### Recent Research
