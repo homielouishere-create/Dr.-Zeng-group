@@ -2,14 +2,14 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Huadong Zeng"
-title: "Undergraduate Research Assistant"
+title: "Lecturer"
 department: "College of Materials and New Energy"
 college: ""
 institution: "South China Normal University"
-institution_location: "Guangzhou, Guangdong, China"
+institution_location: "Shanwei, Guangdong, China"
 email: ""  # 可填写你的电子邮箱，如需隐藏可留空
 phone: ""  # 留空隐藏电话号码
-office: "" # 可填写办公室位置，留空则默认使用 institution_location
+office: "Room 826, Teacher's Comprehensive Building" # 可填写办公室位置，留空则默认使用 institution_location
 photo: profile/ZHD.png  # 替换为你在 images/profile/ 目录下放置的个人头像文件名
 share_image: profile/ZHD.png  # 社交媒体分享预览图文件名
 

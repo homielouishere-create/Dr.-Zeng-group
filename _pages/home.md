@@ -10,37 +10,18 @@ permalink: /
 
 ### About me
 
-Dr. Wenhao Yang is an Assistant Professor in the [Department of Industrial and Systems Engineering](https://www.lamar.edu/engineering/industrial/) at
-[Lamar University](https://www.lamar.edu), where he joined in Fall 2024.
-His [research]({{ site.url }}{{ site.baseurl }}/research) focuses on the integration of Augmented Reality (AR),
-Virtual Reality (VR), and Mixed Reality (MR) with robotics and industrial systems, with particular emphasis on
-human-robot interaction, immersive training environments, and resilient system design.
+Dr. Huadong Zeng is a Lecturer in the College of Materials and New Energy at [South China Normal University](https://www.scnu.edu.cn/). His research focuses on computational materials science, density functional theory (DFT) calculations, first-principles simulations, and energy storage materials.
 
-He received his Ph.D. in the Depsrtment of Industrial and Systems Engineering from
-[Rochester Institute of Technology (RIT)](https://www.rit.edu) in 2023.
-His work spans interdisciplinary areas including advanced manufacturing, human-computer interaction (HCI), and
-user-centered system design, aiming to develop scalable and effective solutions for complex engineering challenges.
+He received his Ph.D. degree in Materials Science and Engineering. His academic work covers electronic structure modeling, topological material characterization, novel carbon allotropes, and machine learning applications in material property prediction.
 
-Dr. Yang has extensive experience in developing and [teaching]({{ site.url }}{{ site.baseurl }}/teaching) courses
-in robotics and immersive technologies, including Collaborative Robot Operation and Programming, AR/VR Applications,
-Introduction to Robotics, and Robotics and Automation in Manufacturing.
-He is passionate about making complex technologies accessible and impactful through both research and education.
-
-He directs the [XRAI Lab]({{ site.url }}{{ site.baseurl }}/lab), where his [team]({{ site.url }}{{ site.baseurl }}/team)
-explores innovative approaches at the intersection of robotics, XR technologies, and industrial applications.
-Dr. Yang welcomes motivated students to join his group and contribute to cutting-edge research in these areas.
-
-Outside the lab, he builds and ships [software]({{ site.url }}{{ site.baseurl }}/projects) — most recently
-[Wherefold](https://wherefold.com), a bilingual travel platform built on a structured database of 5,110 curated
-US attractions that he assembled and now visualizes through an interactive map.
+Dr. Zeng is dedicated to integrating computational methods with energy materials development, providing atomic-level insights into energy storage mechanisms and material design.
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Augmented Reality</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Mixed Reality</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Human-Robot Interaction</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">XR Rehabilitation</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Industrial XR</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Spatial Computing</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational Materials</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">DFT Calculations</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Energy Storage Materials</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Electronic Structure</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">First-Principles Simulation</a>
 </div>
 
 ### Recent Research
