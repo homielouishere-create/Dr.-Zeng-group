@@ -61,36 +61,53 @@ permalink: /team/
 </div>
 {% endif %}
 
-<!-- 2. 本科生 (B.E.) 循环区块 -->
-{% assign be_students = site.data.web.people.students | where: "category", "B.E." | where_exp: "s", "s.show_team == true" %}
+<!-- 2. 本科生循环区块（按 info 中的年份自动分行分组） -->
+{% assign be_students = site.data.web.people.students | where_exp: "s", "s.category != 'M.E.' and s.show_team == true" %}
 {% if be_students.size > 0 %}
 ## Undergraduate Students
 
-<div class="team-grid">
+{% assign years_str = "" %}
 {% for member in be_students %}
-<div class="team-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
-<h4 class="team-name">{{ member.name }}</h4>
-<p class="team-info">{{ member.info }}</p>
+  {% assign y = member.info | slice: 0, 4 %}
+  {% if y != "" %}
+    {% unless years_str contains y %}
+      {% assign years_str = years_str | append: y | append: "," %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+{% assign year_list = years_str | split: "," | sort %}
 
-<!-- 毕业去向：与 B.E. 使用相同的 class="team-info"，保证字体、颜色和斜体样式完全一致 -->
-{% if member.next_position and member.next_position != "" %}
-<p class="team-info">{{ member.next_position }}</p>
-{% endif %}
+{% for year in year_list %}
+{% if year != "" %}
+<div class="team-grid" style="margin-bottom: 24px;">
+{% for member in be_students %}
+  {% assign member_year = member.info | slice: 0, 4 %}
+  {% if member_year == year %}
+  <div class="team-card">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
+  <h4 class="team-name">{{ member.name }}</h4>
+  <p class="team-info">{{ member.info }}</p>
 
-{% if member.research_focus and member.research_focus != "" %}
-<p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Research:</strong> {{ member.research_focus }}</p>
-{% endif %}
-{% if member.lamar_id and member.lamar_id != "" %}<p class="team-info">{{ member.lamar_id }}</p>{% endif %}
-<div class="team-links">
-{% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
-{% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website"><i class="fa-solid fa-house"></i></a>{% endif %}
-{% if member.scholar %}<a href="{{ member.scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-{% if member.github %}<a href="{{ member.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
-</div>
-</div>
+  {% if member.next_position and member.next_position != "" %}
+  <p class="team-info">{{ member.next_position }}</p>
+  {% endif %}
+
+  {% if member.research_focus and member.research_focus != "" %}
+  <p class="team-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;"><strong>Research:</strong> {{ member.research_focus }}</p>
+  {% endif %}
+  {% if member.lamar_id and member.lamar_id != "" %}<p class="team-info">{{ member.lamar_id }}</p>{% endif %}
+  <div class="team-links">
+  {% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+  {% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website"><i class="fa-solid fa-house"></i></a>{% endif %}
+  {% if member.scholar %}<a href="{{ member.scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+  {% if member.github %}<a href="{{ member.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
+  </div>
+  </div>
+  {% endif %}
 {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
 {% endif %}
 
 <!-- 3. 校友 (Alumni) 卡片区块 -->
