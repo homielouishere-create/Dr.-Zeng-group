@@ -157,6 +157,22 @@ students:
     year_end: 2027
     research_focus: "DFT for Hydrogen storage"
 
+  - name: "Zhang Han"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "XMU"
+    photo: team/ZH.jpg
+    info: 2023 B.E.
+    email: ""
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "DFT for enegry storage"
+
   - name: "Zhao Zhengjie"
     show_team: true
     show_about: true
@@ -172,6 +188,22 @@ students:
     year_start: 2023
     year_end: 2027
     research_focus: "DFT; ML"
+
+  - name: "Lin Weicheng"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "SYSU"
+    photo: team/LWC.jpg
+    info: 2023 B.E.
+    email: "157110754@qq.com"
+    website: "https://github.com/Tanchs"
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "Strain; Doping "
 
   - name: "Xu Jinhong"
     show_team: true
@@ -269,6 +301,54 @@ students:
     year_start: 2025
     year_end: 2029
     research_focus: "DFT"
+
+  - name: "Yang Jintong"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/YJT.jpg
+    info: 2025 B.S.
+    email: "20258031058@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: ""
+
+  - name: "Zhang Jiayu"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/YJT.jpg
+    info: 2025 B.S.
+    email: "qwezee167@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: ""
+
+  - name: "He Xiaoyang"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/HXY.jpg
+    info: 2025 B.S.
+    email: "3269547004@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: ""
 
   - name: "This could be you!"
     show_team: true
