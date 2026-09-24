@@ -205,6 +205,38 @@ students:
     year_end: 2027
     research_focus: "Strain; Doping "
 
+  - name: "Chan Wendong"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/CWD.jpg
+    info: 2023 B.E.
+    email: "838336182@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "Strain; Doping "
+
+  - name: "Yang Haici"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: "SYSU"
+    photo: team/YHC.jpg
+    info: 2023 B.E.
+    email: "1516173651@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2023
+    year_end: 2027
+    research_focus: "Strain; Doping "
+
   - name: "Xu Jinhong"
     show_team: true
     show_about: true
@@ -346,6 +378,70 @@ students:
     website: ""
     location: South China Normal University
     degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: ""
+
+  - name: "Yang Zijun"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/YZJ.jpg
+    info: 2025 B.S.
+    email: ""
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: "DFT for Anode Materials"
+
+  - name: "Zhang Huiying"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.S. Student
+    next_position: ""
+    photo: team/ZHY.jpg
+    info: 2025 B.S.
+    email: ""
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: "DFT for Anode Materials"
+
+  - name: "Fang Boweng"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/FBW.jpg
+    info: 2025 B.E.
+    email: "2507049651@qq.com"
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2029
+    research_focus: ""
+
+  - name: "Li Zhenyu"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/LZY.jpg
+    info: 2025 B.E.
+    email: ""
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
     year_start: 2025
     year_end: 2029
     research_focus: ""
