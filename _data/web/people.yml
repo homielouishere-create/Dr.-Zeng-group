@@ -410,23 +410,16 @@ students:
 #     current_position: "Engineer at Tesla"
 
 alumni:
-  - name: "Muhammad Ilyas Mubarik"
-    photo: "team/Mubarik.jpg"             # <--- 如果有照片可以配置照片路径
-    degree: "M.S."
-    year_start: 2024
-    year_end: 2026
-    current_position: "Operations Tech II @ Amazon Data Center Operations"
-    research_focus: "Mixed Reality Training for First Responders"
-    thesis: "Advanced Mixed Reality Training for First Responders in Hurricane Scenarios"
-    email: "mmubarik@lamar.edu"
-    website: "https://www.linkedin.com/in/..."
-
   - name: Chen Zilin
     current_position: "SIGS"
     photo: team/CZL.jpg
     email: zenghd@m.scnu.edu.cn
     degree: B.S. Materials Science and Engineering
     research_focus: "Ai4S"
+    current_position: ""
+    research_focus: ""
+    website: ""
+    thesis: ""
     year_start: 2021 
     year_end: 2025
 # -----------------------------------------------------------------------------
