@@ -1,10 +1,9 @@
-# Doctoral Dissertation Committee — CV only ("Student Guidance" section).
-# Doctoral/Master/Undergraduate/High School advisees are pulled automatically from
-# _data/web/people.yml (students + alumni entries with mentoring_role:
-# doctoral_advisor / master_advisor / undergraduate_advisor / high_school_advisor).
-doctoral_dissertation_committee:
-  - name: "Denise Zepeda"
-    degree: "PhD in Chemical Engineering"
-    institution: "Lamar University"
-    year_start: 2024
-    year_end: "now"
+# 自定义推免/保研学生动态
+undergraduate_advisees:
+  - "Sep. 24, 2026: Zihao Wang — Recommended for postgraduate admission to Tsinghua University"
+  - "Sep. 24, 2026: Zhenjie Zhao — Recommended for postgraduate admission to Peking University"
+  - "Sep. 24, 2026: Yuyan Xia — Recommended for postgraduate admission to Shanghai Jiao Tong University"
+  - "Sep. 24, 2026: Han Zhang — Recommended for postgraduate admission to Xiamen University"
+  - "Sep. 24, 2026: Haoxuan Chen — Recommended for postgraduate admission to Shenzhen Institute of Advanced Technology, CAS"
+  - "Sep. 25, 2025: Junshen Liao — Recommended for postgraduate admission to Peking University"
+  - "Sep. 25, 2024: Zilin Chen — Recommended for postgraduate admission to Tsinghua University"

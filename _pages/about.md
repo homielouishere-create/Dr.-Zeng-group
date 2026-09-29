@@ -54,10 +54,6 @@ permalink: /about/
 </div>
 {% endif %}
 
-
-
-
-
 {% if site.data.profile.experience.professional_experience %}
 <div class="section-card">
 <h3>Professional Experience</h3>
@@ -143,9 +139,19 @@ permalink: /about/
 {% assign mentored_students = site.data.web.people.students | where_exp: "s", "s.show_about == true" %}
 {% assign mentored_alumni = site.data.web.people.alumni | where_exp: "a", "a.mentoring_role != nil and a.mentoring_role != ''" %}
 {% assign all_mentored = mentored_students | concat: mentored_alumni %}
-{% if all_mentored.size > 0 %}
+{% if all_mentored.size > 0 or site.data.profile.student_guidance.undergraduate_advisees %}
 <div class="section-card">
 <h3>Students and Mentoring</h3>
+
+{% if site.data.profile.student_guidance.undergraduate_advisees %}
+<ul style="padding-left: 1.5rem;">
+  {% for item in site.data.profile.student_guidance.undergraduate_advisees %}
+    <li style="margin-bottom: var(--space-1); font-size: 0.95rem;">{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if all_mentored.size > 0 %}
 {% assign mentoring_categories = "doctoral_advisor,master_advisor,undergraduate_advisor,high_school_advisor,doctoral_committee,master_committee" | split: "," %}
 {% assign mentoring_labels = "Doctoral Dissertation Advisor,Master Thesis Advisor,Undergraduate Research Advisor,High School Research Advisor,Doctoral Dissertation Committee,Master Thesis Committee" | split: "," %}
 {% for cat in mentoring_categories %}
@@ -161,6 +167,8 @@ permalink: /about/
 </ul>
   {% endif %}
 {% endfor %}
+{% endif %}
+
 </div>
 {% endif %}
 
