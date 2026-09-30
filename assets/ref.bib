@@ -1,301 +1,109 @@
 @Comment{
   =============================================================
-  ref.bib  Publication and Talk entries for the academic website
-  =============================================================
-
-  ENTRY TYPES
-    article        Journal articles
-    inproceedings  Conference papers
-    unpublished    Preprints / working papers
-    book           Thesis, monograph
-    incollection   Talks  (keywords={invited} or keywords={talk})
-    report         Technical reports
-
-  STANDARD FIELDS
-    title    = {Paper Title},
-    author   = {Last, First and Last2, First2},
-    year     = {2025},
-    doi      = {10.xxxx/xxxxx},        -> DOI button (published entries)
-                                          -> arXiv button (unpublished entries)
-    abstract = {Paper abstract...},    -> Abstract button (collapsible)
-
-  CUSTOM FIELDS  (trigger extra buttons on the website)
-    url    = {https://...},                          -> Website button
-    arxiv  = {https://arxiv.org/abs/xxxx.xxxxx},    -> arXiv button
-    pdf    = {filename.pdf},                         -> PDF button
-                                                        (place file in /papers/)
-
-  EXAMPLE  inproceedings entry with all fields
-    inproceedings{yang2025example,
-      title     = {An Example Paper Title},
-      author    = {Yang, Wenhao and Doe, Jane},
-      booktitle = {Proceedings of the Example Conference},
-      pages     = {1--10},
-      year      = {2025},
-      doi       = {10.1145/1234567.1234568},
-      url       = {https://example.com/paper},
-      arxiv     = {https://arxiv.org/abs/2501.00001},
-      pdf       = {yang2025example.pdf},
-      abstract  = {This is the abstract.},
-    }
-
-  EXAMPLE  talk entry
-    incollection{talk2025example,
-      title     = {Talk Title},
-      author    = {Yang, Wenhao},
-      booktitle = {Conference or Venue Name},
-      year      = {2025},
-      keywords  = {invited},
-    }
+  ref.bib  Publication entries for the academic website
   =============================================================
 }
 
-# publications
+# published papers (@article / @inproceedings)
 
-@inproceedings{yang2021augmented,
-  title={An augmented-reality based human-robot interface for robotics programming in the complex environment},
-  author={Yang, Wenhao and Xiao, Qinqin and Zhang, Yunbo},
-  booktitle={International Manufacturing Science and Engineering Conference},
-  volume={85079},
-  pages={V002T07A003},
-  year={2021},
-  organization={American Society of Mechanical Engineers},
-  url={https://asmedigitalcollection.asme.org/MSEC/proceedings-abstract/MSEC2021/85079/1115433},
-  doi={10.1115/MSEC2021-62468},
-  abstract={TTo solve the problems of complex robot programming tasks, we propose an Augmented Reality (AR) based human-robot interface for planning a collision-free path in a complex environment. Current robot programming methods usually require a high level of experience in robot programming (online programming), the time-consuming 3D modeling of the working environment for collision detection (offline programming), and a tedious and inefficient re-planing to adapt environment or task changes (both online and offline programming). In order to address these problems, an end-to-end AR human-robot interface is proposed, which provides a new affordance to users by enabling them to plan the path in the AR environment. A set of user-interactive tools allow users to define and edit waypoints as the high-level guidance and the direct inputs for the toolpath planning package, Kinematics and Dynamics Library (KDL). With the fast sensing of the workspace and accurate rendering, an in-situ simulation module is utilized for collision check and verification by the users’ perception. Users will repeat the process of 1) waypoints definition and editing, and 2) the collision checking and path feasibility verification, until a satisfactory path is obtained. A preliminary testing is conducted in a use case with complex obstacles to verified the effectiveness and the efficiency of the proposed interface.}
+@article{wang2026cooperative,
+title={The cooperative cation–\(\pi\) interaction in two‑dimensional THD‑C as a high‑capacity anode material for Li‑ion batteries},
+author={Wang, Zihao and Chen, Haoxuan and Zhao, Zhenjie and Zeng, Huadong and Cheng, Xinlu},
+journal={Applied Physics Letters},
+volume={128},
+number={4},
+pages={043903},
+year={2026},
+publisher={AIP Publishing},
+doi={10.1063/5.0312468},
+url={[https://doi.org/10.1063/5.0312468](https://doi.org/10.1063/5.0312468)},
+pdf={2026WZH_APL.pdf},
+abstract={Two‑dimensional (2D) carbon allotropes for high‑performance electrode materials in lithium‑ion batteries (LIBs) are attracting a great deal of research interest due to their unique architectures. Herein, we perform the first‑principles calculations to systematically investigate the feasibility of 2D sp–sp\(^{2}\) hybridized THD‑C (tetra‑, hexa‑, and dodeca‑membered rings), as a potential anode for LIBs. Our simulations indicate that two spatially adjacent acetylenic bonds engender a modest Li–C coupling via the cooperative cation–\(\pi\) interaction driven by partial electron transfer, which exhibits a suitable Li adsorption energy of –0.78 eV. 2D THD‑C is proven to be a favorable anode material that offers a high theoretical capacity (1116.7 mAh/g), a low Li diffusion barrier (0.49 eV), and a moderate open‑circuit voltage (0.40 V). Furthermore, it retains a small volume change (3%) as well as favorable structural and thermal stability even at maximum Li concentration. Overall, those findings not only provide an in‑depth mechanistic insight but also extend an effective method to search for high‑performance anode materials in advancing LIB technology.}
 }
 
-@inproceedings{yang2022visualization,
-  title={Visualization error analysis for augmented reality stereo video see-through head-mounted displays in industry 4.0 applications},
-  author={Yang, Wenhao and Zhang, Yunbo},
-  booktitle={International Manufacturing Science and Engineering Conference},
-  volume={85819},
-  pages={V002T06A016},
-  year={2022},
-  organization={American Society of Mechanical Engineers},
-  url={https://asmedigitalcollection.asme.org/MSEC/proceedings-abstract/MSEC2022/V002T06A016/1147062},
-  doi={10.1115/MSEC2022-85440},
-  pdf={yang2022visualization.pdf},
-  abstract={Under the fourth industrial revolution (Industry 4.0), Augmented Reality (AR) provides new affordances for a variety of applications, such as AR-based human-robot interaction, virtual assembly assistance, and workforce virtual training. The see-through head-mounted displays (STHMDs), based on either optical see-through or video see-through technologies, are the primary AR device to augment the visual perception of the real environment with computer-generated contents through a hand-free headset. Specifically, the video see-through STHMDs process the superimposing of the real environment and virtual contents based on the digital images and output it to users, while optical see-through STHMDs display virtual contents through the optics-based near-eyes display with users’ normal view of the real scene kept. For both types of AR devices, the accuracy of visualization is essential. For example, in AR-based human-robot interaction, the inaccurate rendering of 3D virtual objects with respect to the real environment, will lead to users’ mistaking operations, and therefore, causes an invalid tool path planning result. In spite of many works related to system calibration and error reduction for optical see-through STHMDs, there are few efforts at figuring out the nature and factors of those errors in video see-through STHMDs. In this paper, taking consumer-available AR video see-through STHMDs as an example, we identify error sources of registration and build a mathematical model of the display progress to describe the error propagation in the stereo video see-through systems. Then, based on the mathematical model of the system, the sensitivity of each error source to the final registration error is analyzed. Finally, possible solutions of error correction are suggested and summarized in the general video see-through STHMDs.}
-}
-
-@article{yang2024ha,
-  title={HAR^2bot: A human-centered augmented reality robot programming method with the awareness of cognitive load},
-  author={Yang, Wenhao and Xiao, Qinqin and Zhang, Yunbo},
-  journal={Journal of Intelligent Manufacturing},
-  volume={35},
-  number={5},
-  pages={1985--2003},
-  year={2024},
-  publisher={Springer US New York},
-   doi={10.1007/s10845-023-02096-2},
-  url={https://link.springer.com/article/10.1007/s10845-023-02096-2#citeas},
-  pdf={yang2023HAR2bot.pdf},
-  abstract={In the era of Industry 4.0, manufacturing enterprises are actively adopting collaborative robots (Cobots) in their productions. Current online and offline robot programming methods are difficult to use and require extensive experience or skills. On the other hand, the manufacturing industries are experiencing a labor shortage. An essential question, therefore, is: how would a new robot programming method help novice users complete complex tasks effectively, efficiently, and intuitively? To answer this question, we proposed HAbot, a novel human-centered augmented reality programming interface with awareness of cognitive load. Using NASA’s system design theory and the cognitive load theory, a set of guidelines for designing an AR-based human-robot interaction system is obtained through a human-centered design process. Based on these guidelines, we designed and implemented a human-in-the-loop workflow with features for cognitive load management. The effectiveness and efficiency of HAbot are verified in two complex tasks compared with existing online programming methods. We also evaluated HAbot quantitatively and qualitatively through a user study with 16 participants. According to the user study, compared with existing methods, HAbot has higher efficiency, a lower overall cognitive load, lower cognitive loads for each type, and higher safety.}
-}
-
-@article{yang2024can,
-  title={“i can see your password”: A case study about cybersecurity risks in mid-air interactions of mixed reality-based smart manufacturing applications},
-  author={Yang, Wenhao and Dengxiong, Xiwen and Wang, Xueting and Hu, Yidan and Zhang, Yunbo},
-  journal={Journal of Computing and Information Science in Engineering},
-  volume={24},
-  number={3},
-  pages={031004},
-  year={2024},
-  publisher={American Society of Mechanical Engineers},
-  url={https://asmedigitalcollection.asme.org/computingengineering/article/24/3/031004/1163679/I-Can-See-Your-Password-A-Case-Study-About?guestAccessKey=},
-  doi={10.1115/1.4062658},
-  pdf={yang2024can.pdf},
-  abstract={This paper aims to present a potential cybersecurity risk existing in mixed reality (MR)-based smart manufacturing applications that decipher digital passwords through a single RGB camera to capture the user’s mid-air gestures. We first created a test bed, which is an MR-based smart factory management system consisting of mid-air gesture-based user interfaces (UIs) on a video see-through MR head-mounted display. To interact with UIs and input information, the user’s hand movements and gestures are tracked by the MR system. We setup the experiment to be the estimation of the password input by users through mid-air hand gestures on a virtual numeric keypad. To achieve this goal, we developed a lightweight machine learning-based hand position tracking and gesture recognition method. This method takes either video streaming or recorded video clips (taken by a single RGB camera in front of the user) as input, where the videos record the users’ hand movements and gestures but not the virtual UIs. With the assumption of the known size, position, and layout of the keypad, the machine learning method estimates the password through hand gesture recognition and finger position detection. The evaluation result indicates the effectiveness of the proposed method, with a high accuracy of 97.03%, 94.06%, and 83.83% for 2-digit, 4-digit, and 6-digit passwords, respectively, using real-time video streaming as input with known length condition. Under the unknown length condition, the proposed method reaches 85.50%, 76.15%, and 77.89% accuracy for 2-digit, 4-digit, and 6-digit passwords, respectively.}
-}
-
-@article{yang2024global,
-  title={A global correction framework for camera registration in video see-through augmented reality systems},
-  author={Yang, Wenhao and Zhang, Yunbo},
-  journal={Journal of Computing and Information Science in Engineering},
-  volume={24},
-  number={3},
-  pages={031003},
-  year={2024},
-  publisher={American Society of Mechanical Engineers},
-  url={https://asmedigitalcollection.asme.org/computingengineering/article/24/3/031003/1166670},
-  doi={10.1115/1.4063350},
-  pdf={yang2024global.pdf},
-  abstract={Augmented reality (AR) enhances the user's perception of the real environment by superimposing virtual images generated by computers. These virtual images provide additional visual information that complements the real-world view. AR systems are rapidly gaining popularity in various manufacturing fields such as training, maintenance, assembly, and robot programming. In some AR applications, it is crucial for the invisible virtual environment to be precisely aligned with the physical environment to ensure that human users can accurately perceive the virtual augmentation in conjunction with their real surroundings. The process of achieving this accurate alignment is known as calibration. During some robotics applications using AR, we observed instances of misalignment in the visual representation within the designated workspace. This misalignment can potentially impact the accuracy of the robot’s operations during the task. Based on the previous research on AR-assisted robot programming systems, this work investigates the sources of misalignment errors and presents a simple and efficient calibration procedure to reduce the misalignment accuracy in general video see-through AR systems. To accurately superimpose virtual information onto the real environment, it is necessary to identify the sources and propagation of errors. In this work, we outline the linear transformation and projection of each point from the virtual world space to the virtual screen coordinates. An offline calibration method is introduced to determine the offset matrix from the head-mounted display (HMD) to the camera, and experiments are conducted to validate the improvement achieved through the calibration process.}
-
-}
-
-@article{xian2024multi,
-  title={Multi-scale progressive fusion-based depth image completion and enhancement for industrial collaborative robot applications},
-  author={Xian, Chuhua and Zhang, Jun and Yang, Wenhao and Zhang, Yunbo},
-  journal={Journal of intelligent manufacturing},
-  volume={35},
-  number={5},
-  pages={2119--2135},
-  year={2024},
-  publisher={Springer US New York},
-  pdf={xian2024multi.pdf},
-  url={https://link.springer.com/article/10.1007/s10845-023-02299-7},
-  doi={10.1007/s10845-023-02299-7},
-  abstract={The depth image obtained by consumer-level depth cameras generally has low resolution and missing regions due to the limitations of the depth camera hardware and the method of depth image generation. Despite the fact that many studies have been done on RGB image completion and super-resolution, a key issue with depth images is that there will be evident jagged boundaries and a significant loss of geometric information. To address these issues, we introduce a multi-scale progressive fusion network for depth image completion and super-resolution in this paper, which has an asymptotic structure for integrating hierarchical features in different domains. We employ two separate branches to learn the features of a multi-scale image given a depth image and its corresponding RGB image. The extracted features are then fused into different level features of these two branches using a step-by-step strategy to recreate the final depth image. To confine distinct borders and geometric features, a multi-dimension loss is also designed. Extensive depth completion and super-resolution studies reveal that our proposed method outperforms state-of-the-art methods both qualitatively and quantitatively. The proposed methods are also applied to two human–robot interaction applications, including a remote-controlled robot based on an unmanned ground vehicle (UGV), AR-based toolpath planning, and automatic toolpath extraction. All these experimental results indicate the effectiveness and potential benefits of the proposed methods.}
-}
-
-@book{yang2023enhancing,
-  title={Enhancing Human-Robot Collaboration Through Intuitive Augmented Reality Interface and Precise Visualization},
-  author={Yang, Wenhao},
-  year={2023},
-  publisher={Rochester Institute of Technology}
-}
-
-@inproceedings{yang2024radar,
-  title={RADAR: Robotics Assembly by Demonstration via Augmented Reality},
-  author={Yang, Wenhao and Bai, Shi and Zhang, Yunbo},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  pages={7063--7070},
-  year={2024},
-  organization={IEEE},
-  url={https://ieeexplore.ieee.org/document/10801493},
-  doi={10.1109/IROS58592.2024.10801493},
-  abstract={With the widespread adoption of robots in high-mix, low-volume manufacturing, and the challenges posed by long-horizon assembly tasks, we introduce the RADAR system—an integrated human-robot collaboration system for Robotic Assembly by Demonstration via Augmented Reality. Existing frameworks lack a comprehensive, cross-task framework for effective assembly collaboration, limiting their applicability in complex tasks. We designed the RADAR system’s conceptual model, detailing its workflow and components. The system integrates human input into robotic metal beam assembly through augmented reality interactions and interfaces. We also developed a task planner that dynamically adjusts human-robot assembly tasks at coarse-fine resolutions. Validating through practical scenarios, particularly the RAMP assembly benchmark, showed that human involvement significantly enhances assembly precision and success rates, proving RADAR’s effectiveness and efficiency in human-robot collaborative assembly.}
-
-}
-
-@inproceedings{wang2025exploring,
-  title={Exploring the adversarial vulnerabilities of vision-language-action models in robotics},
-  author={Wang, Taowen and Han, Cheng and Liang, James and Yang, Wenhao and Liu, Dongfang and Zhang, Luna Xinyu and Wang, Qifan and Luo, Jiebo and Tang, Ruixiang},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={6948--6958},
-  year={2025},
-  note={arXiv:2411.13587},
-  doi={10.48550/arXiv.2411.13587},
-  url={https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Exploring_the_Adversarial_Vulnerabilities_of_Vision-Language-Action_Models_in_Robotics_ICCV_2025_paper.html},
-  arxiv={https://arxiv.org/abs/2411.13587},
-  project={/research/#exploring-the-adversarial-vulnerabilities-of-vision-language-action-models-in-robotics},
-  pdf={Wang_Exploring_the_Adversarial_Vulnerabilities_of_Vision-Language-Action_Models_in_Robotics_ICCV_2025_paper.pdf},
-  abstract={Recently in robotics, Vision-Language-Action (VLA) models have emerged as a transformative approach, enabling robots to execute complex tasks by integrating visual and linguistic inputs within an end-to-end learning framework. Despite their significant capabilities, VLA models introduce new attack surfaces. This paper systematically evaluates their robustness. Recognizing the unique demands of robotic execution, our attack objectives target the inherent spatial and functional characteristics of robotic systems. In particular, we introduce two untargeted attack objectives that leverage spatial foundations to destabilize robotic actions, and a targeted attack objective that manipulates the robotic trajectory. Additionally, we design an adversarial patch generation approach that places a small, colorful patch within the camera's view, effectively executing the attack in both digital and physical environments. Our evaluation reveals a marked degradation in task success rates, with up to a 100% reduction across a suite of simulated robotic tasks, highlighting critical security gaps in current VLA architectures. By unveiling these vulnerabilities and proposing actionable evaluation metrics, we advance both the understanding and enhancement of safety for VLA-based robotic systems, underscoring the necessity for continuously developing robust defense strategies prior to physical-world deployments.}
-
-}
-
-@inproceedings{liu2026all,
-  title={All you need is one: Capsule prompt tuning with a single vector},
-  author={Liu, Yiyang and Liang, James and Fan, Heng and Yang, Wenhao and Cui, Yiming and Han, Xiaotian and Huangg, Lifu and Liu, Dongfang and Wang, Qifan and Han, Cheng},
-  journal={Advances in Neural Information Processing Systems},
-  volume={38},
-  pages={88139--88166},
+@article{zhang2026theoretical,
+  title={Theoretical exploration of Orth-C14 as a potential candidate for the anode material of Li-ion batteries},
+  author={Zhang, Han and Chen, Zilin and He, Huimin and Lu, Qiuyan and Zeng, Huadong and Cheng, Xinlu},
+  journal={Surfaces and Interfaces},
+  volume={80},
+  pages={108228},
   year={2026},
-  url={https://proceedings.neurips.cc/paper_files/paper/2025/hash/7f8b8bc8ebac661c442c4dafd5d98c08-Abstract-Conference.html},
-  pdf={NeurIPS-2025-all-you-need-is-one-capsule-prompt-tuning-with-a-single-vector-Paper-Conference.pdf},
-  abstract={Prompt-based learning has emerged as a parameter-efficient finetuning (PEFT) approach to facilitate Large Language Model (LLM) adaptation to downstream tasks by conditioning generation with task-aware guidance. Despite its successes, current prompt-based learning methods heavily rely on laborious grid searching for optimal prompt length and typically require considerable number of prompts, introducing additional computational burden. Worse yet, our pioneer findings indicate that the task-aware prompt design is inherently limited by its absence of instance-aware information, leading to a subtle attention interplay with the input sequence. In contrast, simply incorporating instance-aware information as a part of the guidance can enhance the prompt-tuned model performance without additional fine-tuning. Moreover, we find an interesting phenomenon, namely "attention anchor", that incorporating instance-aware tokens at the earliest position of the sequence can successfully preserve strong attention to critical structural information and exhibit more active attention interaction with all input tokens. In light of our observation, we introduce Capsule Prompt-Tuning (CaPT), an efficient and effective solution that leverages off-the-shelf, informative instance semantics into prompt-based learning. Our approach innovatively integrates both instance-aware and task-aware information in a nearly parameter-free manner (i.e., one single capsule prompt). Empirical results demonstrate that our method can exhibit superior performance across various language tasks (e.g., 84.03\% average accuracy on T5-Large), serving as an "attention anchor," while enjoying high parameter efficiency (e.g., 0.003\% of model parameters on Llama3.2-1B).}
+  publisher={Elsevier},
+  doi={10.1016/j.surfin.2025.108228},
+  url={https://doi.org/10.1016/j.surfin.2025.108228},
+  pdf={2025ZH_SI.pdf},
+  abstract={The exploration of two-dimensional (2D) carbon allotropes as high-performance anode materials in Li-ion batteries (LIBs) has attracted experimental and theoretical research interest. Inspired by this, based on first-principles calculations, we comprehensively evaluate the viability of a novel 2D Orth-C14 monolayer regarded as a prospective anchoring material for LIBs. The multifaceted analyses are conducted to unravel the stability and metallicity of the Orth-C14 monolayer. The calculations indicate that the Orth-C14 monolayer possesses the preferable anchoring strength (-1.78 eV) and charge transfer (0.97 e) toward lithium. To meet the requirement of an excellent anode material, the theoretical Li storage capacity of the Orth-C14 monolayer reaches up to 956 mAh/g. More notably, the Orth-C14 monolayer exhibits an extremely low diffusion barrier (0.12 eV), and maintains suitable open circuit voltage (0.053-0.393 V). The Orth-C14 monolayer displays exceptional structural stability with only 1.3% volume expansion during cycling, contributing to its outstanding cycle life. The potential of the Orth-C16 monolayer, a structural analog of Orth-C14, as a LIB anode is further analyzed. Finally, the intrinsic metallicity, low diffusion barrier, high capacity, excellent cycling performance of the Orth-C14 monolayer position it as a promising candidate for advanced LIBs applications.}
 }
 
-@inproceedings{yang2026seeing,
-  title={Seeing Isn't Believing: The Vertical-Horizontal Illusion Across Screens and XR Headsets},
-  author={Yang, Wenhao and Li, Yueqing and Liu, Xinyu},
-  booktitle={Proceedings of the ASME 2026 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE)},
-  address={Houston, TX, USA},
-  year={2026},
-  project={/research/#seeing-isn-t-believing-the-vertical-horizontal-illusion-across-screens-and-xr-headsets},
-  pdf={yang2026seeing.pdf},
-  slides={files/slides/idetc2026-mr-vhi-talk_20260824.pdf},
-  video={https://youtu.be/njVBP0nEefs},
-  abstract={The Vertical-Horizontal Illusion (VHI) systematically biases perceived geometric proportions, yet its behavior across modern digital devices remains understudied. This ecosystem now spans desktop monitors, smartphones, and an expanding class of extended-reality (XR) head-mounted displays (HMDs). This work introduces the Square Recognition Test (SRT), a unified cross-platform method for quantifying subjective squareness judgments and measuring device-dependent VHI biases. A within-subject study (N = 24) was conducted across PC, mobile, and Augmented Reality (AR) HMD conditions (flat- and curved-canvas). Results reveal a consistent tendency for participants to select slightly wider-than-tall rectangles as perceptually square across all device types, confirming the robustness of VHI in contemporary digital environments. Across all devices, PSE ranged narrowly from 1.02 to 1.04, suggesting that VHI magnitude is largely device-invariant for square judgments. Although numerical differences were observed, no statistically significant device effect was detected. To investigate mitigation strategies, two AR interface variants were evaluated, demonstrating that display geometry and rendering-surface curvature can influence perceptual stability. Curved-canvas AR rendering produced both lower bias and higher accuracy than flat-canvas AR, indicating that rendering geometry may be the more actionable lever for perceptual calibration in XR interface design.}
+@article{chen2026theoretical,
+title={A theoretical study for the performance evaluation of the two‑dimensional carbon Kagome lattice as an anode material for lithium‑ion batteries},
+author={Chen, Haoxuan and Zhao, Zhenjie and Cheng, Xinlu and Wang, Zihao and Zeng, Huadong},
+journal={Physical Chemistry Chemical Physics},
+volume={28},
+pages={13603--13613},
+year={2026},
+publisher={Royal Society of Chemistry},
+doi={10.1039/d6cp00574h},
+url={[https://doi.org/10.1039/d6cp00574h](https://doi.org/10.1039/d6cp00574h)},
+pdf={2026CHX_PCCP.pdf},
+abstract={Securing high specific capacity in two‑dimensional (2D) carbon allotrope materials in lithium‑ion batteries (LIBs) is crucial for their use as well‑balanced anode materials. Motivated by this, we utilize first‑principles calculations to systematically investigate the potential of a carbon Kagome lattice (CKL) monolayer as an effective material for LIBs. A 2D CKL demonstrates excellent energetic, dynamic, and thermal stability. Lithium adsorption analysis demonstrates strong anchoring capability toward Li ions, characterized by a relatively high adsorption energy (2.68 eV), arising from pronounced electron transfer (0.943 e) between Li ions and the CKL framework. Notably, the CKL presents a low Li diffusion barrier (0.18 eV), indicating fast ion transport kinetics that are highly desirable for high‑rate battery operation. Furthermore, the maximum configuration of the CKL delivers a high theoretical capacity of 1115.7 mAh g\(^{-1}\), simultaneously maintaining robust structural stability throughout Li‑ion adsorption and desorption. Meanwhile, the calculated average open‑circuit voltage is 1.3 V, which is comparable to that of TiO\(_{2}\) (1.5–1.8 V) and h‑AlC (1.38 V). Furthermore, the CKL still maintains good thermal stability even under the maximum Li storage capacity at 500 K. These merits demonstrate the CKL to be a promising and well‑balanced carbon anode material and provide useful insights for the rational design of advanced anode materials for LIBs.}
 }
 
-##################################
-# Talks
-# keywords={invited} or {talk}
-##################################
-
-
-@incollection{talk2026idetc_vhi,
-  title={Seeing Isn't Believing: The Vertical-Horizontal Illusion Across Screens and XR Headsets},
-  author={Yang, Wenhao and Li, Yueqing and Liu, Xinyu},
-  booktitle={ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE)},
-  year={2026},
-  slides={files/slides/idetc2026-mr-vhi-talk_20260824.pdf},
-  video={https://youtu.be/njVBP0nEefs},
-  keywords={talk}
-}
-
-@incollection{talk2026setxsection_robotics,
-  title={Humanoids + AI: Ready for Real Collaboration, or Still Hype?},
-  author={Yang, Wenhao},
-  booktitle={ISA Southesat Texas Section Meeting},
-  year={2026},
-  data={2026-03-24},
-  keywords={invited}
-}
-
-@incollection{talk2026setx_hrc,
-  title={Human-Robot Interaction, Collaboration, and VLA Models},
-  author={Yang, Wenhao},
-  booktitle={ISA Southesat Texas Section Cybersecurity, AI & Automation (CAA) Symposium},
-  year={2026},
-  data={2026-02-25},
-  keywords={invited}
-}
-
-@incollection{talk2025pss_AI,
-  title={AI in Human Integrated Process Automation: Balancing Efficiency, Safety, and Cybersecurity},
-  author={Yang, Wenhao},
-  booktitle={Process Solutions Summit and VectoberFest},
-  year={2025},
-  data={2025-10-16},
-  keywords={invited}
-}
-
-@incollection{talk2025idetc_mr,
-  title={Advanced MR Simulations for First Responder Training},
-  author={Yang, Wenhao},
-  booktitle={ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE)},
-  year={2025},
-  keywords={talk}
-}
-
-@incollection{talk2024iros_radar,
-  title={RADAR: Robotics Assembly by Demonstration via Augmented Reality},
-  author={Yang, Wenhao and Bai, Shi and Zhang, Yunbo},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+@article{chen2024exploring,
+  title={Exploring adsorption and sensing mechanism of Li-decorated N-doped black phosphorene for toxic gases: Insights from first-principles calculations},
+  author={Chen, Zilin and Li, Ruolan and Peng, Xin and Jiang, Hao and Zeng, Huadong},
+  journal={Surfaces and Interfaces},
+  volume={52},
+  pages={104872},
   year={2024},
-  keywords={talk}
+  publisher={Elsevier},
+  doi={10.1016/j.surfin.2024.104872},
+  url={https://doi.org/10.1016/j.surfin.2024.104872},
+  pdf={2024CZL_SI.pdf},
+  abstract={The two-dimensional material black phosphorene has attracted extensive attention due to its unique sensing performance. Herein, on the basis of first-principles calculations, we investigate the adsorption and dissociation of several toxic gases (NO2, SO2, H2S) on the Li-decorated N-doped black phosphorene (LNBP). The effect of gas molecule coverage on the electronic and sensing properties of LNBP is also studied. Our results demonstrate that NO2 and SO2 have a strong interaction with LNBP due to the hybridization of O-2p with P-3p orbitals, while the 3NO2-LNBP system exhibits a high charge transfer up to 0.95 e from the Li atom to gas molecules. Furthermore, the capture ability of toxic gas on the LNBP follows the sequence of H2S < SO2 < NO2, which corresponds with their adsorption energy of -0.68 eV, -1.37 eV and -2.55 eV. In addition, the LNBP is appropriate for NO2 gas detection with a high sensitivity ranging from 84.8% to 92.6% as the coverage increases. The significant changes in the work function of NO2 and SO2 suggest a high selectivity in LNBP. The energy barrier of dissociation is relatively low at 1.24 eV with an exothermic process for the NO2 LNBP system. We believe that these findings provide an important insight into sensing applications of metal-decorated black phosphorene.}
 }
 
-@incollection{talk2024idetc_camera,
-  title={A Global Correction Framework for Camera Registration in Video See-Through Augmented Reality Systems},
-  author={Yang, Wenhao and Zhang, Yunbo},
-  booktitle={ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE)},
-  year={2024},
-  keywords={talk}
+@article{chen2024theoretical,
+title={Theoretical insights into the structural, electronic and gas‑sensing properties of Sc‑decorated black phosphorus via strain engineering},
+author={Chen, Houru and Wen, Longying and Chen, Zilin and Jiang, Hao and Zeng, Huadong},
+journal={Chemical Physics Letters},
+volume={845},
+pages={141303},
+year={2024},
+publisher={Elsevier},
+doi={10.1016/j.cplett.2024.141303},
+url={[https://doi.org/10.1016/j.cplett.2024.141303](https://doi.org/10.1016/j.cplett.2024.141303)},
+pdf={2024CHR_CPL.pdf},
+abstract={Structural and electronic properties of Sc‑decorated black phosphorus (SP) and its gas sensing for NO molecule were investigated using density functional theory with the emphasis on the response to applied strain. It found that SP transformed into indirect bandgap semiconductor, and converted into a metal characteristic under strain. SP showed strong interaction with the NO with a high adsorption energy of −2.92 eV since the orbital hybridization and extensive charge transfer, and exhibited 3.3‑fold sensitivity compared to black phosphorus, suggesting that SP was a potential NO sensor. Furthermore, strain engineering provided an effective route to facilitate the desorption of NO.}
 }
 
-@incollection{talk2024idetc_cyber,
-  title={Cybersecurity Risks in Mid-Air Interactions of Mixed Reality-Based Smart Manufacturing Applications},
-  author={Yang, Wenhao and Dengxiong, Xiwen and Wang, Xueting and Hu, Yidan and Zhang, Yunbo},
-  booktitle={ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE)},
-  year={2024},
-  keywords={talk}
+@article{chen2023uniaxial,
+title={Uniaxial strain engineering of the electronic and optical properties of phenyl‑functionalized black phosphorus},
+author={Chen, Zilin and Zeng, Huadong and Chen, Houru and Wen, Longying},
+journal={Chemical Physics Letters},
+volume={827},
+pages={140690},
+year={2023},
+publisher={Elsevier},
+doi={10.1016/j.cplett.2023.140690},
+url={[https://doi.org/10.1016/j.cplett.2023.140690](https://doi.org/10.1016/j.cplett.2023.140690)},
+pdf={2023CZL_CPL.pdf},
+abstract={The electronic and optical properties of phenyl‑functionalized black phosphorus (phenyl‑BP) under uniaxial strain engineering were investigated using first‑principles calculations. It revealed that the overall transitions from semiconductor to metallic properties were observed in the phenyl‑BP. Notably, when 4% tensile strain was exerted along the armchair direction, phenyl‑BP was restored to a p‑type semiconductor with a smaller gap of 0.60 eV. Furthermore, compressive strain enhanced its ability to absorb ultraviolet light and high photon energy region around 14 eV. Our results suggested that the strain‑induced properties of phenyl‑BP provided a theoretical guidance for realizing its full potential in optoelectronic applications.}
 }
 
-@incollection{talk2023msec_ar,
-  title={AR-Based Human-Robot Collaboration with Cognitive Load Awareness},
-  author={Yang, Wenhao and Xiao, Qinqin and Zhang, Yunbo},
-  booktitle={ASME International Manufacturing Science and Engineering Conference (MSEC)},
-  year={2023},
-  keywords={talk}
-}
+# preprints (@unpublished)
 
-@incollection{talk2022msec_ar,
-  title={Visualization Error Analysis for Augmented Reality Stereo Video See-Through Head-Mounted Displays in Industry 4.0 Applications},
-  author={Yang, Wenhao and Zhang, Yunbo},
-  booktitle={ASME International Manufacturing Science and Engineering Conference (MSEC)},
-  year={2022},
-  keywords={talk}
-}
+@Comment{
+  预印本模板（对应 publications.md 中的 {% bibliography --query @unpublished %}）
+  将来有 arXiv / 预印本论文时，取消下方注释并修改即可：
 
-@incollection{talk2021msec_ar,
-  title={An Augmented-Reality Based Human-Robot Interface for Robotics Programming in the Complex Environment},
-  author={Yang, Wenhao and Xiao, Qinqin and Zhang, Yunbo},
-  booktitle={ASME International Manufacturing Science and Engineering Conference (MSEC)},
-  year={2021},
-  keywords={talk}
+  @unpublished{yourname2026title,
+    title     = {Title of Your Preprint Paper},
+    author    = {Your Name and Co-author Name},
+    year      = {2026},
+    note      = {arXiv:XXXX.XXXXX},
+    arxiv     = {https://arxiv.org/abs/XXXX.XXXXX},
+    pdf       = {your_preprint.pdf},
+    abstract  = {Abstract text goes here...}
+  }
 }
