@@ -108,8 +108,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Zeng
-  first_name: [Huadong]
+#  last_name: Zeng
+#  first_name: [Huadong]
   style: citesty
   locale: en
   source: /assets/
