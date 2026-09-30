@@ -12,5 +12,5 @@ permalink: /publications/
 <div class="section-card" id="pubList">
 <h3>Published Papers</h3>
 
-{% bibliography --query "@article || @inproceedings" %}
+{% bibliography %}
 </div>
