@@ -13,8 +13,4 @@ permalink: /publications/
 <h3>Published Papers</h3>
 
 {% bibliography --query "@article || @inproceedings" %}
-
-<h3>Preprints</h3>
-
-{% bibliography --query @unpublished %}
 </div>
