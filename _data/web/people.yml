@@ -301,6 +301,38 @@ students:
     year_start: 2024
     year_end: 2028
     research_focus: "DFT for Lithium storage"
+
+  - name: "He Huan"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/HH.jpg
+    info: 2024 B.E.
+    email: "202480322520@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2024
+    year_end: 2028
+    research_focus: "DFT for Lithium storage"
+
+  - name: "Huan Siling"
+    show_team: true
+    show_about: true
+    category: "B.E."
+    mentoring_role: B.E. Student
+    next_position: ""
+    photo: team/HSL.jpg
+    info: 2024 B.E.
+    email: "202480322556@m.scnu.edu.cn"
+    website: ""
+    location: South China Normal University
+    degree: B.E. Materials Science and Engineering
+    year_start: 2024
+    year_end: 2028
+    research_focus: "DFT for Lithium storage"
 # ----------------------------------
   - name: "Yu jincheng"
     show_team: true
@@ -469,6 +501,22 @@ students:
     degree: B.S. Materials Science and Engineering
     year_start: 2024
     year_end: 2027
+    research_focus: "DFT for potassium storage"
+
+  - name: "Gao Lijun"
+    show_team: true
+    show_about: true
+    category: "M.E."
+    mentoring_role: M.E. Student
+    next_position: ""
+    photo: team/GLJ.jpg
+    info: 2025 B.S.
+    email: ""
+    website: ""
+    location: South China Normal University
+    degree: B.S. Materials Science and Engineering
+    year_start: 2025
+    year_end: 2028
     research_focus: "DFT for potassium storage"
 
   - name: "Zhang lindong"
