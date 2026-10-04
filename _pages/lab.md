@@ -10,11 +10,8 @@ hero_image: images/lab/ketizu.jpg
 <div class="section-card">
 <h3>About C-AIMS Lab</h3>
 <p style="font-size: 0.95rem; line-height: 1.75; margin-bottom: var(--space-4);">
-The <strong>Carbon & AI-driven Materials Simulation (C-AIMS) Laboratory</strong> is committed to pioneering next-generation energy storage solutions through the convergence of first-principles Density Functional Theory (DFT) calculations, Topological Data Analysis (TDA), and Artificial Intelligence for Science (AI4S). 
+The <strong>Carbon & AI-driven Materials Simulation (C-AIMS) Laboratory</strong> is committed to pioneering next-generation energy storage solutions through the convergence of first-principles <strong>Density Functional Theory (DFT)</strong> calculations, <strong>Machine Learning</strong>, <strong>Topological Data Analysis (TDA)</strong>, and <strong>Artificial Intelligence for Science (AI4S)</strong>. 
 Our primary research focuses on the atomic-scale design, electronic structure modeling, and electrochemical performance evaluation of novel <strong>two-dimensional (2D) carbon allotropes</strong> and nanostructures as high-performance anode materials for metal-ion batteries.
-</p>
-<p style="font-size: 0.95rem; line-height: 1.75; margin: 0;">
-To bridge structural complex topology with materials informatics, we actively develop physics-informed machine learning frameworks—integrating persistent homology (PH) descriptors, Graph Neural Networks (GNNs), and Topology-guided Physics-Constrained Neural Networks (<strong>Topo-PCNN</strong>). This enables rapid property prediction, kinetic mechanism exploration, and data-driven discovery of functional carbon-based materials.
 </p>
 </div>
 
