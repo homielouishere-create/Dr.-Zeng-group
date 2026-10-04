@@ -1,92 +1,78 @@
 # Research focus areas — rendered on the Lab page before Equipment.
 # projects.slug must match the Jekyll slugify output of the project title in research.yml
 
-- id: 1
-  name: "Human-Centered XR & AI"
-  image: "lab/class-1_HumanCenteredXRAI.jpg"
-  description: "Studying how people perceive and interact within XR environments to design intuitive, cognitively-aware, AI-enhanced interfaces."
-  projects:
-    - title: "Human-Centered AR HRI with Cognition Awareness"
-      slug: "system-design-of-a-human-centered-ar-hri-with-cognition-awareness"
-    - title: "Vertical-Horizontal Illusion Across Screens and XR Headsets"
-      slug: "seeing-isn-t-believing-the-vertical-horizontal-illusion-across-screens-and-xr-headsets"
-    - title: "Real-Time Object Detection for MR on Meta Quest 3S"
-      slug: "real-time-object-detection-for-mixed-reality-on-meta-quest-3s-using-ai-building-blocks"
-  funding: "NSF Human-Centered Computing (HCC), NIH"
-  domains:
-    - Human Factors
-    - Spatial Perception
-    - Healthcare
-    - Cognitive Systems
+research_areas:
+  - id: "01"
+    name: "2D Battery Materials & Molecular Design"
+    image: "research/battery_materials.png"
+    description: "Atomic-scale design, electronic structure modeling, and electrochemical performance evaluation of novel 2D carbon allotropes (THD-C, CKL, Orth-C14) and functional heterostructures for metal-ion battery anodes."
+    projects:
+      - title: "2D Carbon Allotropes for Li-Ion Battery Anodes"
+        slug: "2d-carbon-anodes"
+      - title: "Cooperative Cation-pi Interaction Kinetics"
+        slug: "cation-pi-kinetics"
+    domains:
+      - "2D Materials"
+      - "Metal-Ion Batteries"
+      - "DFT Calculations"
+      - "Anode Materials"
 
-- id: 2
-  name: "Immersive Learning & Workforce Training"
-  image: "lab/class-2_edu.jpg"
-  description: "Designing and evaluating XR-based systems that accelerate skill acquisition, knowledge transfer, and workforce readiness across education and professional domains."
-  projects:
-    - title: "VR Learning System with LLM-Powered Conversational Avatar"
-      slug: "an-immersive-virtual-reality-learning-system-with-an-llm-integrated-conversational-avatar-for-real-time-educational-assistance"
-    - title: "MR Training for First Responders in Hurricane Scenarios"
-      slug: "advanced-mixed-reality-training-for-first-responders-in-hurricane-scenarios"
-    - title: "AR Educational App for Newton's Cradle Physics"
-      slug: "development-of-an-interactive-ar-based-educational-application-for-demonstrating-newton-s-cradle-motion"
-  funding: "NSF IUSE, DHS / FEMA, Department of Education"
-  domains:
-    - Higher Education
-    - K–12
-    - Emergency Response
-    - Technical Training
+  - id: "02"
+    name: "Excited-State Carrier Dynamics"
+    image: "research/carrier_dynamics.png"
+    description: "Quantum simulation and ultrafast non-adiabatic dynamics of excited-state carriers and electron-hole pairs in novel low-dimensional functional materials and heterostructures."
+    projects:
+      - title: "Carrier Transport in 2D Heterostructures"
+        slug: "carrier-transport"
+      - title: "Ultrafast Photodynamic Processes"
+        slug: "ultrafast-photodynamics"
+    domains:
+      - "Excited States"
+      - "Carrier Dynamics"
+      - "Heterostructures"
+      - "Optoelectronics"
 
-- id: 3
-  name: "XR-Mediated Human-Robot Collaboration"
-  image: "lab/class-3_HCR.jpg"
-  description: "Developing XR interfaces that enable natural, safe, and efficient communication between humans and robotic systems in complex real-world environments."
-  projects:
-    - title: "AR-Based Human-Robot Interaction System"
-      slug: "augmented-reality-based-human-robot-interaction-system"
-    - title: "Tele-Robot System with Mixed-Reality Interaction"
-      slug: "a-tele-robot-system-with-mixed-reality-interaction"
-    - title: "Human-Centered AR HRI with Cognition Awareness"
-      slug: "system-design-of-a-human-centered-ar-hri-with-cognition-awareness"
-  funding: "NSF NRI, DOD, DOE"
-  domains:
-    - Industrial Robotics
-    - Teleoperation
-    - Collaborative Manufacturing
-    - Remote Operations
+  - id: "03"
+    name: "Novel Clean Energy & Hydrogen Storage"
+    image: "research/hydrogen_storage.png"
+    description: "First-principles evaluation, structural stability screening, and physicochemical property characterization of advanced clean energy systems, with a strong focus on high-capacity hydrogen storage."
+    projects:
+      - title: "Theoretical Screening for Hydrogen Storage"
+        slug: "hydrogen-storage-screening"
+      - title: "Gas Sensing and Adsorption Mechanisms"
+        slug: "gas-sensing-adsorption"
+    domains:
+      - "Hydrogen Storage"
+      - "Gas Adsorption"
+      - "Clean Energy"
+      - "First-Principles"
 
-- id: 4
-  name: "Digital Twin & Intelligent Manufacturing"
-  image: "lab/class-4_DT_SM.jpg"
-  description: "Integrating digital twin and AR technologies to build data-driven manufacturing environments with intelligent visualization, monitoring, and maintenance workflows."
-  projects:
-    - title: "AR-Assisted Maintenance and Repair System"
-      slug: "augmented-reality-assisted-maintenance-and-repair-system-development"
-    - title: "AR Smart Factory Management System"
-      slug: "augmented-reality-assisted-smart-factory-management-system-development"
-    - title: "Global Calibration for VST AR Misregistration"
-      slug: "a-global-calibration-to-solve-the-misregistration-problems-in-vst-ar-system"
-  funding: "NSF, DOE, Industry Partnerships"
-  domains:
-    - Predictive Maintenance
-    - Smart Factory
-    - Industrial IoT
-    - Quality Control
+  - id: "04"
+    name: "Smart Controllable Energetic Materials"
+    image: "research/energetic_materials.png"
+    description: "Rational molecular engineering, thermodynamic sensitivity modeling, and decomposition/initiation reaction pathways of smart controllable energetic compounds."
+    projects:
+      - title: "Energetic Crystal Structure Modeling"
+        slug: "energetic-structure-modeling"
+      - title: "Initiation Behaviors & Thermal Reaction Pathways"
+        slug: "initiation-reaction-pathways"
+    domains:
+      - "Energetic Materials"
+      - "Reaction Kinetics"
+      - "Structure Design"
+      - "Thermodynamics"
 
-- id: 5
-  name: "Adaptive & Intelligent XR Systems"
-  image: "lab/class-5_AdaptiveIntelligentXR.jpg"
-  description: "Building AI-driven XR pipelines that sense user context, adapt in real time, and deliver personalized interaction across rehabilitation, training, and industrial settings."
-  projects:
-    - title: "MOTION: AI-Driven Motion Capture for AR Rehabilitation"
-      slug: "motion-ai-driven-biomechanical-motion-capture-for-augmented-reality-rehabilitation"
-    - title: "VR Learning System with LLM-Powered Conversational Avatar"
-      slug: "an-immersive-virtual-reality-learning-system-with-an-llm-integrated-conversational-avatar-for-real-time-educational-assistance"
-    - title: "Real-Time Object Detection for MR on Meta Quest 3S"
-      slug: "real-time-object-detection-for-mixed-reality-on-meta-quest-3s-using-ai-building-blocks"
-  funding: "NIH, NSF, Industry R&D"
-  domains:
-    - Rehabilitation
-    - Personalized Training
-    - AI-Assisted Interaction
-    - Spatial Computing
+  - id: "05"
+    name: "AI4S & Data-Driven Energy Materials Discovery"
+    image: "research/ai4s_materials.png"
+    description: "Developing physics-informed machine learning workflows and data-driven computational paradigms to accelerate high-throughput screening, property prediction, and novel candidate discovery for advanced battery anode materials."
+    projects:
+      - title: "High-Throughput AI Screening for Battery Anodes"
+        slug: "ai-screening-battery-anodes"
+      - title: "Data-Driven Material Property Prediction Workflows"
+        slug: "data-driven-property-prediction"
+    domains:
+      - "AI4S"
+      - "Machine Learning"
+      - "High-Throughput Screening"
+      - "Materials Informatics"
