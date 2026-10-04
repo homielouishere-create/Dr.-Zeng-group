@@ -10,10 +10,20 @@ hero_image: images/lab/ketizu.jpg
 <div class="section-card">
 <h3>About C-AIMS Lab</h3>
 <p style="font-size: 0.95rem; line-height: 1.75; margin-bottom: var(--space-4);">
-The <strong>Carbon & AI-driven Materials Simulation (C-AIMS) Laboratory</strong> is committed to pioneering next-generation energy storage solutions through the convergence of first-principles <strong>Density Functional Theory (DFT)</strong> calculations, <strong>Machine Learning</strong>, <strong>Topological Data Analysis (TDA)</strong>, and <strong>Artificial Intelligence for Science (AI4S)</strong>. 
+The <strong>Carbon & AI-driven Materials Simulation (C-AIMS) Laboratory</strong> is committed to pioneering next-generation energy storage solutions through the convergence of first-principles <strong>Density Functional Theory (DFT)</strong> calculations, Machine Learning, Topological Data Analysis (TDA), and Artificial Intelligence for Science (AI4S). 
 Our primary research focuses on the atomic-scale design, electronic structure modeling, and electrochemical performance evaluation of novel <strong>two-dimensional (2D) carbon allotropes</strong> and nanostructures as high-performance anode materials for metal-ion batteries.
 </p>
+<p style="font-size: 0.95rem; line-height: 1.75; margin-bottom: var(--space-2);">
+Our research focuses on four core directions:
+</p>
+<ul style="font-size: 0.95rem; line-height: 1.75; margin-bottom: var(--space-4); padding-left: 1.2rem;">
+<li><strong>Molecular Design of 2D Battery Materials</strong>: Atomic-scale design, electronic structure modeling, and electrochemical performance evaluation of novel two-dimensional (2D) carbon allotropes and functional nanostructures as high-performance anode materials for metal-ion batteries.</li>
+<li><strong>Excited-State Carrier Dynamics</strong>: Quantum simulation and ultrafast dynamical mechanisms of excited-state carriers in novel functional materials (including 2D materials and heterostructures).</li>
+<li><strong>Novel Energy & Hydrogen Storage Materials</strong>: Theoretical prediction, fundamental physicochemical property characterization, and storage mechanism analysis of emerging clean energy materials.</li>
+<li><strong>Structure Design of Smart Energetic Materials</strong>: Rational structural modeling, thermodynamic reactivity, and controlled initiation behaviors of (smart) controllable energetic materials.</li>
+</ul>
 </div>
+
 
 {% include lab_news_carousel.html %}
 
