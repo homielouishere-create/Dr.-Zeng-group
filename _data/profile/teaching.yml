@@ -17,60 +17,31 @@
 #     date: "2026-09"          # YYYY-MM，用于 /videos/ 排序（取最新一条视频的时间）
 
 
-- code: "INEN 5301-05"
-  name: "Collaborative Robot Operations and Programming"
+- code: "PHYS 101"
+  name: "College Physics"
   semesters:
-    - "Fall 2024"
-    - "Fall 2025"
-    - "Fall 2026"
+    - "Spring (Freshman)"
+    - "Fall (Sophomore)"
   description: >
-    This hands-on course covers fundamental concepts of industrial robotics, including
-    kinematics, programming, and collaborative robot operations. Students gain practical
-    experience programming a real UR10e cobot using PolyScope X interface under guidance
-    from certified trainers. Through realistic lab scenarios, you will develop skills in
-    robot task automation, learn to create and optimize robot programs, and master the
-    unique features of PolyScope X for manufacturing applications. Upon completion,
-    students earn the "Educational Robotics Training - Core" certification. See the
-    [UR Academy Brochure](https://academy.universal-robots.com/media/g52jayc3/ur-academy-brochure-training-eng-may-2026.pdf)
-    for certification details.
-  syllabus: "files/teaching/ST_Collab._Robot_Ops_and_Pro_INEN_5301_Fall_2025.pdf"
-  textbooks:
-    - title: "Robotics: Modelling, Planning and Control by Siciliano, Bruno"
-      url: "https://people.disim.univaq.it/~costanzo.manes/EDU_stuff/Robotics_Modelling,%20Planning%20and%20Control_Sciavicco_extract.pdf"
-    - title: "User manual - UR10e e-Series"
-      url: "https://www.universal-robots.com/download/manuals-e-seriesur20ur30/user/ur10e/512/user-manual-ur10e-e-series-sw-512-english-international-en/"
-    - title: "Industrial Robotics Control"
-      url: "https://link.springer.com/book/10.1007/978-1-4842-8989-1"
-    - title: "Robotics and Automation Handbook"
-      url: "https://dl.icdst.org/pdfs/files/5bc4ddc0b1b8f7e5738d8440fe191904.pdf"
-  projects:
-    - title: "Student demo — Task 1: UR10 Pick & Place operation"
-      url: "https://youtu.be/owRrbLbY2q0"
-      date: "2025-12"
-    - title: "Student demo — Task 2: Writing Task with L-ID"
-      url: "https://youtu.be/22OX8TqLNnA"
-      date: "2025-12"
-  video_playlist:
-    url: "https://www.youtube.com/watch?v=dMoTswBlRJc&list=PLB6iRphjkIHI"
-    date: "2026-09"
-  links:
-    - title: "Course video playlist (YouTube)"
-      url: "https://www.youtube.com/playlist?list=PLB6iRphjkIHI"
-    - title: "Universal Robots Academy Free e-Learning Courses"
-      url: "https://academy.universal-robots.com/free-e-learning/"
-
-- code: "INEN 5301-01"
-  name: "AR/VR in Manufacturing"
-  semesters:
-    - "Spring 2025" 
-    - "Spring 2026" 
-  description: >
-    Explores the application of Augmented Reality and Virtual Reality technologies
-    in modern manufacturing systems. Topics include AR/VR hardware platforms,
-    spatial computing, human-machine interaction, and industrial use cases such as
-    remote assistance, digital twins, and operator training.
-  syllabus: "files/teaching/ST_AR_VR_in_Manufacturing_INEN_5301_Spring_2026.pdf"
+    This foundational course covers the core principles of classical and modern physics, 
+    including mechanics, thermodynamics, electromagnetism, optics, and introductory quantum physics. 
+    Designed for undergraduate students in science and engineering, the course emphasizes 
+    physical concepts, mathematical modeling, and analytical problem-solving skills to build 
+    a rigorous theoretical foundation for subsequent advanced courses. (4 Credits)
+  syllabus: ""
   textbooks: []
-  projects: 
-    - title: "Development of an Interactive AR-Based Educational Application for Demonstrating Newton's Cradle Motion"
-      url: "/research/#development-of-an-interactive-ar-based-educational-application-for-demonstrating-newton-s-cradle-motion"
+  projects: []
+
+- code: "PHYS 101L"
+  name: "College Physics Laboratory"
+  semesters:
+    - "Spring (Freshman)"
+    - "Fall (Sophomore)"
+  description: >
+    This practical laboratory course complements College Physics by offering hands-on experience 
+    with classical and modern physics experiments. Students receive systematic training in experimental 
+    methods, error analysis, data processing, and scientific report writing across key areas including 
+    mechanics, optics, and electromagnetism. (4 Credits)
+  syllabus: ""
+  textbooks: []
+  projects: []
