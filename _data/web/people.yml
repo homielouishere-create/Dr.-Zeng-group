@@ -43,12 +43,12 @@ pi:
 #     website: https://janesmith.mit.edu
 #     email: jsmith@mit.edu
 collaborators:
-  - name: "Yueqing Li"
-    last_name: "Li"
+  - name: "Xinlu Cheng"
+    last_name: "Cheng"
     show_collaborator: true
-    affiliation: "Lamar University"
-    website: "https://www.lamar.edu/engineering/industrial/faculty/yueqing-li/"
-    email: "yueqing.li@lamar.edu"
+    affiliation: "Sichuan University"
+    website: "https://iamp.scu.edu.cn/js-yjy/52361.html"
+    email: "chengxl@scu.edu.cn"
 
 
 # -----------------------------------------------------------------------------
