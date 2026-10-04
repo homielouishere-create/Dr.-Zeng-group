@@ -32,40 +32,153 @@
 #     bib       — full external URL to BibTeX / citation page
 #     github    — full external URL to GitHub repository
 
-
-
-- title: "Exploring the Adversarial Vulnerabilities of Vision-Language-Action Models in Robotics"
-  image: "research/2025_ICCV_open_vla.pdf"
-  focus: [3]
-  start_date: "2025-2"
-  end_date: "2025-7"
+- title: "The cooperative cation-π interaction in two-dimensional THD-C as a high-capacity anode material for Li-ion batteries"
+  image: "research/2026WZH_APL.png"
+  focus: [1]
+  start_date: "2025-08"
+  end_date: "2026-04"
   authors:
-    - name: "Taowen Wang"
-    - name: "James Liang"
-    - name: "Luna Xinyu Zhang"
+    - name: "Zihao Wang"
+    - name: "Haoxuan Chen"
+    - name: "Zhenjie Zhao"
   mentors:
-    - name: "Wenhao Yang"
-    - name: "Cheng Han"
-    - name: "Dongfang Liu"
-    - name: "Qifan Wang"
-    - name: "Jiebo Luo"
-    - name: "Ruixiang Tang"
+    - name: "Huadong Zeng"
+    - name: "Xinlu Cheng"
   keywords:
-    - Vision-Language-Action (VLA)
-    - Robotics
-    - Adversarial Attacks
-    - Robustness Evaluation
-    - Robot Trajectory Manipulation
-    - Embodied AI
+    - 2D Carbon Allotropes
+    - Lithium-Ion Batteries
+    - THD-C
+    - Cation-pi Interaction
+    - Anode Materials
+    - DFT Calculations
   abstract: >
-    Vision-Language-Action (VLA) models enable robots to perform complex tasks by integrating visual and language inputs, but they also introduce new security risks. This work systematically evaluates VLA robustness by designing both untargeted and targeted attacks that exploit spatial and functional properties of robotics. We further propose a physical adversarial patch attack, effective in both simulation and real-world settings. Experiments show up to a 100% drop in task success rates, revealing critical vulnerabilities and motivating the need for stronger defenses in VLA-based robotic systems.
+    Two-dimensional (2D) sp-sp2 hybridized THD-C monolayer is systematically evaluated via first-principles calculations as a prospective high-capacity anode for Li-ion batteries. Spatially adjacent acetylenic bonds induce a modest Li-C coupling through cooperative cation-pi interactions driven by partial electron transfer. THD-C delivers a high theoretical capacity of 1116.7 mAh/g, a low Li diffusion barrier of 0.49 eV, and a moderate open-circuit voltage of 0.40 V, retaining a minimal 3% volume expansion.
   links:
-    paper: "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Exploring_the_Adversarial_Vulnerabilities_of_Vision-Language-Action_Models_in_Robotics_ICCV_2025_paper.pdf"
-    webpage: "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Exploring_the_Adversarial_Vulnerabilities_of_Vision-Language-Action_Models_in_Robotics_ICCV_2025_paper.html"
-    video: []
-    bib: "/publications/#wang2025exploring"
-    poster: ""
-    slide: ""
-    github: "https://vlaattacker.github.io/"
-    arxiv: "https://arxiv.org/abs/2411.13587"
-    supplementary: "https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wang_Exploring_the_Adversarial_ICCV_2025_supplemental.pdf"
+    paper: "2026WZH_APL.pdf"
+    webpage: "https://doi.org/10.1063/5.0312468"
+    bib: "/publications/#wang2026cooperative"
+
+- title: "A theoretical study for the performance evaluation of the two-dimensional carbon Kagome lattice as an anode material for lithium-ion batteries"
+  image: "research/2026CHX_PCCP.png"
+  focus: [1]
+  start_date: "2025-06"
+  end_date: "2026-03"
+  authors:
+    - name: "Haoxuan Chen"
+    - name: "Zhenjie Zhao"
+    - name: "Zihao Wang"
+  mentors:
+    - name: "Huadong Zeng"
+    - name: "Xinlu Cheng"
+  keywords:
+    - Carbon Kagome Lattice
+    - Lithium-Ion Batteries
+    - Anode Materials
+    - Fast Ion Transport
+    - First-Principles
+  abstract: >
+    First-principles calculations demonstrate that the 2D carbon Kagome lattice (CKL) serves as an outstanding anode material for Li-ion batteries. Featuring strong anchoring capability (-2.68 eV) and fast ion transport kinetics with a low diffusion barrier of 0.18 eV, CKL achieves a high theoretical capacity of 1115.7 mAh/g and an open-circuit voltage of 1.3 V while maintaining robust thermal and structural stability.
+  links:
+    paper: "2026CHX_PCCP.pdf"
+    webpage: "https://doi.org/10.1039/d6cp00574h"
+    bib: "/publications/#chen2026theoretical"
+
+- title: "Theoretical exploration of Orth-C14 as a potential candidate for the anode material of Li-ion batteries"
+  image: "research/2025ZH_SI.png"
+  focus: [1]
+  start_date: "2025-04"
+  end_date: "2026-01"
+  authors:
+    - name: "Han Zhang"
+    - name: "Zilin Chen"
+    - name: "Huimin He"
+    - name: "Qiuyan Lu"
+  mentors:
+    - name: "Huadong Zeng"
+    - name: "Xinlu Cheng"
+  keywords:
+    - Orth-C14
+    - Lithium-Ion Batteries
+    - 2D Carbon Allotropes
+    - Anode Materials
+    - Ultra-low Diffusion Barrier
+  abstract: >
+    Multifaceted first-principles analyses reveal that the novel 2D Orth-C14 monolayer possesses intrinsic metallicity, superior theoretical Li storage capacity (956 mAh/g), and an exceptionally low Li diffusion barrier of 0.12 eV. With minimal volume expansion (1.3%) during cycling, Orth-C14 exhibits promising potential for high-rate battery applications.
+  links:
+    paper: "2025ZH_SI.pdf"
+    webpage: "https://doi.org/10.1016/j.surfin.2025.108228"
+    bib: "/publications/#zhang2026theoretical"
+
+- title: "Exploring adsorption and sensing mechanism of Li-decorated N-doped black phosphorene for toxic gases"
+  image: "research/2024CZL_SI.png"
+  focus: [3]
+  start_date: "2023-11"
+  end_date: "2024-08"
+  authors:
+    - name: "Zilin Chen"
+    - name: "Ruolan Li"
+    - name: "Xin Peng"
+  mentors:
+    - name: "Hao Jiang"
+    - name: "Huadong Zeng"
+  keywords:
+    - Black Phosphorene
+    - Gas Sensing
+    - Toxic Gas Adsorption
+    - NO2 Detection
+    - First-Principles
+  abstract: >
+    The adsorption and dissociation of toxic gases (NO2, SO2, H2S) on Li-decorated N-doped black phosphorene (LNBP) are systematically studied using DFT. LNBP exhibits exceptionally high sensitivity (84.8%–92.6%) and selectivity toward NO2 detection due to strong orbital hybridization, providing crucial insights into functionalized 2D gas sensors.
+  links:
+    paper: "2024CZL_SI.pdf"
+    webpage: "https://doi.org/10.1016/j.surfin.2024.104872"
+    bib: "/publications/#chen2024exploring"
+
+- title: "Theoretical insights into the structural, electronic and gas-sensing properties of Sc-decorated black phosphorus via strain engineering"
+  image: "research/2024CHR_CPL.png"
+  focus: [3]
+  start_date: "2023-08"
+  end_date: "2024-05"
+  authors:
+    - name: "Houru Chen"
+    - name: "Longying Wen"
+    - name: "Zilin Chen"
+  mentors:
+    - name: "Hao Jiang"
+    - name: "Huadong Zeng"
+  keywords:
+    - Black Phosphorus
+    - Strain Engineering
+    - Sc-Decoration
+    - Gas Sensing
+    - NO Sensor
+  abstract: >
+    DFT calculations show that Sc-decorated black phosphorus (SP) transforms into a metallic character under strain and exhibits a 3.3-fold increase in NO sensing sensitivity compared to pristine BP (-2.92 eV adsorption energy). Strain engineering is further demonstrated as an effective strategy to facilitate NO desorption.
+  links:
+    paper: "2024CHR_CPL.pdf"
+    webpage: "https://doi.org/10.1016/j.cplett.2024.141303"
+    bib: "/publications/#chen2024theoretical"
+
+- title: "Uniaxial strain engineering of the electronic and optical properties of phenyl-functionalized black phosphorus"
+  image: "research/2023CZL_CPL.png"
+  focus: [2]
+  start_date: "2022-12"
+  end_date: "2023-09"
+  authors:
+    - name: "Zilin Chen"
+    - name: "Houru Chen"
+    - name: "Longying Wen"
+  mentors:
+    - name: "Huadong Zeng"
+  keywords:
+    - Black Phosphorus
+    - Strain Engineering
+    - Optoelectronics
+    - Bandgap Modulation
+    - Optical Absorption
+  abstract: >
+    Uniaxial strain engineering modulates the semiconductor-to-metal transition in phenyl-functionalized black phosphorus. Under 4% tensile strain along the armchair direction, phenyl-BP retains a p-type semiconductor state with a 0.60 eV bandgap, while compressive strain enhances UV absorption around 14 eV.
+  links:
+    paper: "2023CZL_CPL.pdf"
+    webpage: "https://doi.org/10.1016/j.cplett.2023.140690"
+    bib: "/publications/#chen2023uniaxial"
