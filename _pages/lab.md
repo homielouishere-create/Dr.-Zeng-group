@@ -3,18 +3,18 @@ title: "Lab"
 layout: gridlay
 sitemap: false
 permalink: /lab/
-hero_image: images/lab/xrai_lab_wide.png
+hero_image: images/lab/ketizu.jpg
 ---
-## XRAI Lab
+## C-AIMS Lab
 
 <div class="section-card">
-<h3>About XRAI Lab</h3>
+<h3>About C-AIMS Lab</h3>
 <p style="font-size: 0.95rem; line-height: 1.75; margin-bottom: var(--space-4);">
-The <strong>Extended Reality, Artificial Intelligence, and Robotics (XRAI) Lab</strong> aims to advance the seamless integration of Extended Reality (XR), Artificial Intelligence (AI), and Robotics to create intelligent, interactive, and adaptive systems.
-Our research focuses on next-generation technologies that seamlessly bridge the physical and virtual worlds, enabling intuitive human–machine interaction, augmenting human capabilities, and supporting collaborative autonomy.
+The <strong>Carbon & AI-driven Materials Simulation (C-AIMS) Laboratory</strong> is committed to pioneering next-generation energy storage solutions through the convergence of first-principles Density Functional Theory (DFT) calculations, Topological Data Analysis (TDA), and Artificial Intelligence for Science (AI4S). 
+Our primary research focuses on the atomic-scale design, electronic structure modeling, and electrochemical performance evaluation of novel <strong>two-dimensional (2D) carbon allotropes</strong> and nanostructures as high-performance anode materials for metal-ion batteries.
 </p>
 <p style="font-size: 0.95rem; line-height: 1.75; margin: 0;">
-Through interdisciplinary innovation, the XRAI Lab redefines how intelligent systems are designed, experienced, and deployed across real-world applications, including advanced manufacturing, engineering education, and human-centered automation.
+To bridge structural complex topology with materials informatics, we actively develop physics-informed machine learning frameworks—integrating persistent homology (PH) descriptors, Graph Neural Networks (GNNs), and Topology-guided Physics-Constrained Neural Networks (<strong>Topo-PCNN</strong>). This enables rapid property prediction, kinetic mechanism exploration, and data-driven discovery of functional carbon-based materials.
 </p>
 </div>
 
