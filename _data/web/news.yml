@@ -1,38 +1,21 @@
 # News items shown on the home page sidebar.
 # The 5 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
-- date: August 28, 2026
-  headline: "Hosted <b>Simon Saurbier</b> (Karlsruhe Institute of Technology) for an ISE seminar on human–machine symbiosis — <a href='/lab/news/hms-seminar-saurbier/'>read about the talk and the discussion</a>."
 
-- date: August 23, 2026
-  headline: "Heading to <b>ASME IDETC-CIE 2026</b>, chairing both VARE User Experience (UX) and Human-Machine Interaction sessions — <a href='https://idetc.secure-platform.com/a/solicitations/280/sessiongallery/schedule/items/24209' target='_blank'>CIE-31-01</a> and <a href='https://idetc.secure-platform.com/a/solicitations/280/sessiongallery/schedule/items/24210' target='_blank'>CIE-31-02</a>. I'm presenting <a href='https://idetc.secure-platform.com/a/solicitations/280/sessiongallery/24209/application/194261' target='_blank'>‘Seeing Isn’t Believing: the Vertical–Horizontal Illusion Across Screens and XR Headsets’</a>, and Rezwanul Ashraf Ruddro is presenting ‘An LLM-Integrated VR Framework for Avatar-Driven Oral Assessment of Student Learning Outcomes.’"
+- date: March 4, 2026
+  headline: "Undergraduate student <b>Zihao Wang</b> published a first-author research paper in <b>Applied Physics Letters</b> — <a href='http://smne.scnu.edu.cn/a/20260304/166.html' target='_blank'>college news</a> | <a href='https://doi.org/10.1063/5.0312468' target='_blank'>paper</a>."
 
-- date: August 22, 2026
-  headline: "New project video: an autonomous TurtleBot 4 / ROS 2 robot that runs route-based vibration inspection routes — <a href='https://youtu.be/YtjXZ8cdC8E' target='_blank'>watch the UI demo</a>."
+- date: February 15, 2026
+  headline: "Haoxuan Chen et al. published a paper on two-dimensional carbon Kagome lattice for Li-ion battery anodes in <b>Physical Chemistry Chemical Physics</b> — <a href='https://doi.org/10.1039/d6cp00574h' target='_blank'>read paper</a>."
 
-- date: August 6, 2026
-  headline: "Launched <a href='https://wherefold.com' target='_blank'>Wherefold</a>, a bilingual interactive travel guide for the US covering 1,274 cities, 5,110 attractions, and 36 national parks — built solo with React, Mapbox GL, and a Prisma/PostgreSQL backend."
+- date: January 10, 2026
+  headline: "Han Zhang et al. published a paper on Orth-C14 monolayer as an anode material for Li-ion batteries in <b>Surfaces and Interfaces</b> — <a href='https://doi.org/10.1016/j.surfin.2025.108228' target='_blank'>read paper</a>."
 
-- date: May 18, 2026
-  headline: "'A Human-Centered AI Task Management System for Cognitive Load Reduction and Decision Support in Industrial Plant Management' accepted in the AHFE International Open Access" 
+- date: May 23, 2024
+  headline: "Undergraduate student <b>Zilin Chen</b> published a first-author paper on toxic gas sensing in <b>Surfaces and Interfaces</b> — <a href='http://smne.scnu.edu.cn/a/20240523/120.html' target='_blank'>college news</a> | <a href='https://doi.org/10.1016/j.surfin.2024.104872' target='_blank'>paper</a>."
 
-- date: May 16, 2026
-  headline: "I attended the IISE Annual Conference & Expo 2026 in Arlington, TX"
+- date: April 12, 2024
+  headline: "Houru Chen et al. published research on Sc-decorated black phosphorus gas sensors in <b>Chemical Physics Letters</b> — <a href='https://doi.org/10.1016/j.cplett.2024.141303' target='_blank'>read paper</a>."
 
-- date: April 26, 2026
-  headline: "'Seeing Isn't Believing: The Vertical-horizontal Illusion Across Screens and Xr Headsets' accepted in the IDETC/CIE2026 conference proceedings."
-
-- date: August 23, 2023
-  headline: "Joining IDETC-CIE 2023 in Boston, MA! Presenting two groundbreaking works: tackling cybersecurity risks in smart manufacturing and advancing global calibration in VST AR system."
-
-- date: August 16, 2023
-  headline: "Exciting news! A Global Correction Framework for Camera Registration in Video See-Through Augmented Reality Systems was accepted in the Journal of Computing and Information Science in Engineering."
-
-- date: Jun 4, 2023
-  headline: "Thrilled to attend NAMRC-MSEC 2023 in Rutgers, NJ. Engaging with experts, and exploring manufacturing innovations."
-
-- date: May 21, 2023
-  headline: "Exciting news! 'I can see your password': A case study about cybersecurity risks in mid-air interactions of mixed reality-based smart manufacturing applications was accepted in the Journal of Computing and Information Science in Engineering (JCISE)."
-
-- date: April 8, 2023
-  headline: Two abstracts accepted for IDETC-CIE 2023. Ready to showcase cutting-edge research on the global stage.
+- date: July 18, 2023
+  headline: "Zilin Chen et al. published research on strain engineering of phenyl-functionalized black phosphorus in <b>Chemical Physics Letters</b> — <a href='https://doi.org/10.1016/j.cplett.2023.140690' target='_blank'>read paper</a>."
